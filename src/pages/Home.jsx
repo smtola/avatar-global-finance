@@ -57,7 +57,6 @@ const Home = () => {
           className='absolute translate-x-[-50%] left-[70%] top-[40%] bottom-0 btn text-[#ffffff] backdrop-blur-[10px] bg-opacity-[.2] font-bold text-[16px] cursor-pointer'>Read More</button>
         </div>
         <div className='hidden lg:block'>
-          <div className='p-10 mask mask-triangle-3 bg-gradient-to-r from-[#1D2E5C] to-[#002561] opacity-[0.85] absolute top-[20%] translate-x-[-50%] md:left-[40%] lg:left-[41.2%] 2xl:left-[42.4%]'></div>
           <div className='bg-gradient-to-r from-[#002561] to-[#1D2E5C] opacity-[0.85] w-full  md:max-w-[28rem] lg:max-w-[36rem] xl:max-w-[45rem] 2xl:max-w-[62rem] absolute top-20 md:top-8 lg:top-14 translate-x-[-50%] left-[50%] md:left-[71.9%]'>
             <div className='p-[35px] xl:p-[60px] text-[#ffffff] font-["tenorsans"] z-[10]'>
               <h1 className="text-[20px] lg:text-[30px] xl:text-[40px] 2xl:text-[64px]">Message From CEO</h1>  
@@ -214,7 +213,7 @@ const Home = () => {
           </div>
       </div>
 
-      <div className='background-filter bg-why-us'>
+      <div className='bg-why-us'>
         <h1 className='text-[30px] lg:text-[50px] font-["tenorsans"] font-medium text-center py-5 text-[#1D2E5C]'>Why Us?</h1>
 
         <div className='w-full max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-2xl mx-auto '>

@@ -10,9 +10,7 @@ const Contact = () => {
           backgroundPosition: 'center',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
-          backgroundAttachment: 'fixed',
         }}>
-        <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content py-0 text-neutral-content text-center">
           <div className="max-w-lg xl:max-w-xl md:py-10">
             <h1 data-aos="flip-up" className="text-xl md:text-3xl xl:text-5xl font-bold text-[#ffffff] py-5">Let us put Our Knowledge and Experience to Work For You</h1>
@@ -25,7 +23,7 @@ const Contact = () => {
          className="hero bg-base-200 text-[#1D2E5C]  backdrop-blur-[5px] bg-opacity-[.1] shadow-lg">
         <div className="hero-content grid" data-aos="fade-up">
           <div className="text-center lg:text-left">
-              <h1 className="text-5xl font-bold">Contact Our</h1>
+              <h1 className="text-5xl font-bold">Contact Us</h1>
               <p className="py-6">
                   Please kindly key in the below information for us to best assist you. 
               </p>
