@@ -220,7 +220,7 @@ const Home = () => {
         <div className='w-full max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-2xl mx-auto '>
           <div data-aos="zoom-in"
             className='grid grid-cols-1 md:grid-cols-4 px-5 md:px-0 justify-center mx-[10px] mt-[10px] bg-[#1D2E5C] backdrop-blur-[1px] bg-opacity-50 rounded-md relative'>
-            <div className='flex gap-2 text-start md:grid md:grid-cols-1 p-[5px] xl:p-[2vw] 2xl:p-[4vw] md:text-center text-[#ffffff] font-["tenorsans"] hover:bg-[#ffffff] hover:shadow-xl hover:scale-[1.1] hover:text-[#1D2E5C] hover:p-5 md:hover-p-0 hover:first-line:text-[#068BFF] transition-all duration-150 '>
+            <div className='flex gap-2 text-start md:flex-col p-[5px] xl:p-[2vw] 2xl:p-[4vw] md:text-center text-[#ffffff] font-["tenorsans"] hover:bg-[#ffffff] hover:shadow-xl hover:scale-[1.1] hover:text-[#1D2E5C] hover:first-line:text-[#068BFF] transition-all duration-150 '>
               <h1 className='text-[30px] 2xl:text-[50px] h-[56px] me-2 md:me-0'>1</h1>
               <div className='mt-2 md:mt-0'>
                 <h2 className='text-[13px] 2xl:text-[20px] md:px-[2vw] mb-2'>
@@ -233,7 +233,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div className='flex gap-2 text-start md:grid md:grid-cols-1 p-[5px] xl:p-[2vw] 2xl:p-[4vw] md:text-center text-[#ffffff] font-["tenorsans"] hover:bg-[#ffffff] hover:shadow-xl hover:scale-[1.1] hover:text-[#1D2E5C] hover:p-5 md:hover-p-0 hover:first-line:text-[#068BFF] transition-all duration-150'>
+            <div className='flex gap-2 text-start md:flex-col p-[5px] xl:p-[2vw] 2xl:p-[4vw] md:text-center text-[#ffffff] font-["tenorsans"] hover:bg-[#ffffff] hover:shadow-xl hover:scale-[1.1] hover:text-[#1D2E5C] hover:first-line:text-[#068BFF] transition-all duration-150'>
               <h1 className='text-[30px] 2xl:text-[50px] h-[56px]'>2</h1>
               <div className='mt-2 md:mt-0'>
                 <h2 className='text-[13px] 2xl:text-[20px] md:px-[1vw] mb-2'>
@@ -247,7 +247,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div className='flex gap-2 text-start md:grid md:grid-cols-1 p-[5px] xl:p-[2vw] 2xl:p-[4vw] md:text-center text-[#ffffff] font-["tenorsans"] hover:bg-[#ffffff] hover:shadow-xl hover:scale-[1.1] hover:text-[#1D2E5C] hover:p-5 md:hover-p-0 hover:first-line:text-[#068BFF] transition-all duration-150'>
+            <div className='flex gap-2 text-start md:flex-col p-[5px] xl:p-[2vw] 2xl:p-[4vw] md:text-center text-[#ffffff] font-["tenorsans"] hover:bg-[#ffffff] hover:shadow-xl hover:scale-[1.1] hover:text-[#1D2E5C] hover:first-line:text-[#068BFF] transition-all duration-150'>
               <h1 className='text-[30px] 2xl:text-[50px] h-[56px]'>3</h1>
               <div className='mt-2 md:mt-0'>
                 <h2 className='text-[13px] 2xl:text-[20px] md:px-[2vw] mb-2'>
@@ -260,7 +260,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div className='flex gap-2 text-start md:grid md:grid-cols-1 p-[5px] xl:p-[2vw] 2xl:p-[4vw] md:text-center text-[#ffffff] font-["tenorsans"] hover:bg-[#ffffff] hover:shadow-xl hover:scale-[1.1] hover:text-[#1D2E5C] hover:p-5 md:hover-p-0 hover:first-line:text-[#068BFF] transition-all duration-150'>
+            <div className='flex gap-2 text-start md:flex-col p-[5px] xl:p-[2vw] 2xl:p-[4vw] md:text-center text-[#ffffff] font-["tenorsans"] hover:bg-[#ffffff] hover:shadow-xl hover:scale-[1.1] hover:text-[#1D2E5C] hover:first-line:text-[#068BFF] transition-all duration-150'>
               <h1 className='text-[30px] 2xl:text-[50px] h-[56px]'>4</h1>
               <div className='mt-2 md:mt-0'>
                 <h2 className='text-[13px] 2xl:text-[20px] md:px-[2vw] mb-2'>
