@@ -96,18 +96,18 @@ const Home = () => {
         </div>
       </div>
 
-      <div className='z-[10] px-2 lg:px-0 container w-full max-w-screen-md xl:max-w-screen-lg mx-auto my-[10vw] font-["tenorsans"]'>
-          <div>
+      <div className='z-[10] px-2 lg:px-0 my-[10vw] font-["tenorsans"]'>
+          <div className='w-full max-w-screen-md lg:max-w-screen-lg 2xl:max-w-screen-xl mx-auto'>
             <h1 className='text-[#1D2E5C] text-center text-[34px]'>Our People</h1>
 
             <div data-aos="fade-up"
-              className='bg-[#ECF1F5] w-full grid grid-cols-1 lg:grid-cols-2 justify-center items-center rounded-xl lg:rounded-full gap-3 my-10 overflow-hidden px-12'>
+              className='bg-[#ECF1F5] flex flex-wrap lg:flex-nowrap justify-center items-center rounded-xl lg:rounded-full gap-3 my-10 overflow-hidden px-12'>
               <div className='border-b-4 border-[#1D2E5C] lg:border-none'>
-                <img src={imgP_1} alt="team" className='w-full max-w-sm mx-auto' />
+                <img src={imgP_1} alt="team" className='w-full  mx-auto' />
               </div>
-              <div className='py-5 lg:py-0'>
-                <h1 className='text-[17px] xl:text-[20px] text-[#1D2E5C] font-medium'>H.E. SENG BUN HUY</h1>
-                <p className='text-[14px] xl:text-[16px] text-[#1D2E5C]'>is a founder and plays his role as the President with the specialist in commercial practice, notary public profession, insolvency administrator and governmental mediator of the Ministry of Justice.      Education:  L.L.B from Royal University of Law and Economics – Faculty of Law in Cambodia.
+              <div className='py-5 lg:py-0 w-full max-w-2xl mx-auto'>
+                <h1 className='text-[17px] xl:text-[30px] 2xl:text-[36px] text-[#1D2E5C] font-medium'>H.E. SENG BUN HUY</h1>
+                <p className='text-[14px] xl:text-[16px] 2xl:text-[20px] text-[#1D2E5C]'>is a founder and plays his role as the President with the specialist in commercial practice, notary public profession, insolvency administrator and governmental mediator of the Ministry of Justice.      Education:  L.L.B from Royal University of Law and Economics – Faculty of Law in Cambodia.
                     L.L.M from Yokohama National University – Faculty of International Business Law in Japan.
                     Affiliation: Member at Bar of the Kingdom of Cambodia. 
                     Language: Khmer, English,  Chinese and Japanese
@@ -115,10 +115,10 @@ const Home = () => {
               </div>
             </div>  
             <div data-aos="fade-down"
-              className='bg-[#ECF1F5] w-full grid grid-cols-1 lg:grid-cols-2 justify-center items-center rounded-xl lg:rounded-full gap-3 my-10 overflow-hidden px-12'>
-              <div className='lg:text-end py-5 lg:py-0'>
-                <h1 className='text-[17px] xl:text-[20px] text-[#1D2E5C] font-medium'>Mr. SENG SARUM</h1>
-                <p className='text-[14px] xl:text-[16px] text-[#1D2E5C]'>is our Partner with the specialist in accounting and finance practice.
+              className='bg-[#ECF1F5] w-full flex flex-wrap lg:flex-nowrap justify-center items-center rounded-xl lg:rounded-full gap-3 my-10 overflow-hidden px-12'>
+              <div className='lg:text-end py-5 lg:py-0  w-full max-w-2xl mx-auto'>
+                <h1 className='text-[17px] xl:text-[28px] 2xl:text-[30px] text-[#1D2E5C] font-medium'>Mr. SENG SARUM</h1>
+                <p className='text-[14px] xl:text-[16px] 2xl:text-[18px] text-[#1D2E5C]'>is our Partner with the specialist in accounting and finance practice.
                 Education: BA in Accounting and Finance from National University of Management – Faculty of Accounting in Cambodia.
                 Accreditation: He was also awarded by CamEd Business School as the Diploma in the IFRS for SMEs. He is also accredited by KICPAA and qualified as the Accounting and Finance Practice of the Accounting Regulator of the Ministry of Economics and Finance.
                 Working Experiences: He is experienced in tax litigation, accounting and finance and audit. He has extensive experience in legal advice in the field of Tax Law and Accounting Practice across the Countries.
@@ -126,12 +126,12 @@ const Home = () => {
                 </p>
               </div>
               <div className='order-first lg:order-last border-b-4 border-[#1D2E5C] lg:border-none'>
-                <img src={imgP_2} alt="team" className='w-full max-w-[400px] mx-auto' />
+                <img src={imgP_2} alt="team" className='w-full mx-auto' />
               </div>
             </div>  
           </div>
 
-          <div className='grid grid-cols-2 lg:grid-cols-3 justify-center items-center gap-[4vw] pt-7'>
+          <div className='w-full max-w-screen-md xl:max-w-screen-lg mx-auto grid grid-cols-2 lg:grid-cols-3 justify-center items-center gap-[4vw] pt-7'>
             <div data-aos="zoom-in" 
               className="w-full max-w-[174px] md:max-w-[248px] mx-auto text-start">
                 <div className='w-[100px] h-[100px] mx-auto md:w-[184px] md:h-[184px] overflow-hidden bg-[#ECF1F5] p-2 rounded-full'>
