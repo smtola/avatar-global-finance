@@ -13,8 +13,8 @@ const Footers = () => {
             </p>
           </div>
           <div className="grid justify-center">
-            <h1 className='text-[30px] font-["tenorsans"] font-medium text-white'>Quick Link</h1>
-            <ul className='font-["tenorsans"] font-medium text-white'>
+            <h1 className='text-[30px] font-["Tenor Sans"] font-medium text-white'>Quick Link</h1>
+            <ul className='font-["Tenor Sans"] font-medium text-white'>
               <li data-aos="zoom-in"><NavLink to="/">Home</NavLink></li>
               <li data-aos="zoom-in"><NavLink to="/about-us">About Us</NavLink></li>
               <li data-aos="zoom-in"><NavLink to="/our-service">Our Service</NavLink></li>
@@ -23,13 +23,13 @@ const Footers = () => {
             </ul>
           </div>
           <div className="grid md:justify-center">
-            <h1 className='text-[30px] font-["tenorsans"] font-medium text-white'>Contact Us</h1>
-            <ul className='font-["tenorsans"] font-medium text-white'>
+            <h1 className='text-[30px] font-["Tenor Sans"] font-medium text-white'>Contact Us</h1>
+            <ul className='font-["Tenor Sans"] font-medium text-white'>
               <li data-aos="zoom-in">+855 17 966 659</li>
               <li data-aos="zoom-in">+855 69 666 499</li>
             </ul>
 
-            <h1 className='text-[30px] font-["tenorsans"] font-medium text-white mt-5'>Follow Us</h1>
+            <h1 className='text-[30px] font-["Tenor Sans"] font-medium text-white mt-5'>Follow Us</h1>
             <ul className='flex justify-start gap-[3vw] items-center text-white'>
               <li data-aos="zoom-in">
                 <span>
@@ -52,7 +52,7 @@ const Footers = () => {
       </footer>
 
       <div className='bg-[#ffffff] py-5'>
-        <h1 className='text-[#1D2E5C] text-center font-["tenorsans"] font-medium'>&copy; {(new Date().getFullYear())} All right reserve by Avatar Finance and Accounting</h1>
+        <h1 className='text-[#1D2E5C] text-center font-["Tenor Sans"] font-medium'>&copy; {(new Date().getFullYear())} All right reserve by Avatar Finance and Accounting</h1>
       </div>
     </>
   )
