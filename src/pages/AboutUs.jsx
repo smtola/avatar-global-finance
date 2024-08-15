@@ -23,7 +23,7 @@ const AboutUs = () => {
                     <span>
                         <img src={iconVision} className='w-[4vh] md:w-[8vh] mx-auto' />
                     </span>
-                    <p className='text-[10px] md:text-[20px] text-center font-meduim font-["Tenor Sans"]'>Vision</p>
+                    <p className='text-[10px] md:text-[20px] text-center font-meduim font-["tenorsans"]'>Vision</p>
                   </NavLink>
                 </li>
                 <li data-aos="fade-right"
@@ -32,7 +32,7 @@ const AboutUs = () => {
                     <span>
                       <img src={iconMission} className='w-[3vh] md:w-[6vh] mx-auto' />
                     </span>
-                    <p className='text-[10px] md:text-[20px] font-meduim font-["Tenor Sans"]'>Mission</p>
+                    <p className='text-[10px] md:text-[20px] font-meduim font-["tenorsans"]'>Mission</p>
                   </NavLink>
                 </li>
                 <li data-aos="fade-right"
@@ -41,7 +41,7 @@ const AboutUs = () => {
                     <span>
                       <img src={iconCoreValue} className='w-[4vh] md:w-[7vh] mx-auto' />
                     </span>
-                    <p className='text-[10px] md:text-[20px] font-meduim font-["Tenor Sans"]'>Core Value</p>
+                    <p className='text-[10px] md:text-[20px] font-meduim font-["tenorsans"]'>Core Value</p>
                   </NavLink>
                 </li>
                 <li data-aos="fade-right"
@@ -50,7 +50,7 @@ const AboutUs = () => {
                     <span>
                     <img src={iconRegister} className='w-[3vh] md:w-[6vh] mx-auto' />
                     </span>
-                    <p className='text-[10px] text-center md:text-[20px] font-meduim font-["Tenor Sans"]'>We are registered</p>
+                    <p className='text-[10px] text-center md:text-[20px] font-meduim font-["tenorsans"]'>We are registered</p>
                   </NavLink>
                 </li>
               </ul>

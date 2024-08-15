@@ -77,7 +77,7 @@ const  handleClickMenu =()=>{
         <div className='hidden lg:block'>
           <nav className='w-full bg-[#ffffff] shadow-md'>
             <div className='p-5'>
-                <ul className='flex justify-evenly font-medium text-[#1D2E5C] text-[23px] font-["Tenor Sans"]'>
+                <ul className='flex justify-evenly font-medium text-[#1D2E5C] text-[23px] font-["tenorsans"]'>
                   <li className={`relative text-[#1f3676] nav-link`}>
                     <NavLink to="/" >
                       Home
@@ -103,8 +103,8 @@ const  handleClickMenu =()=>{
           </nav>
         </div>
 
-        <div className='my-4 lg:my-10'>
-          <div className="text-center uppercase text-[#1D2E5C] font-['Tenor Sans']" data-aos="fade-right">
+        <div className='my-0 lg:my-10'>
+          <div className="text-center uppercase text-[#1D2E5C] font-['tenorsans']" data-aos="fade-right">
             <h1 className='text-[30px] h-[30px] lg:text-[50px] xl:text-[70px] lg:h-[40px] xl:h-[50px]'>Welcome</h1>
             <h1 className='text-[50px] h-[52px] lg:text-[100px] xl:text-[144px] lg:h-[130px] xl:h-[160px]'>Avartar</h1>
             <h1 className='text-[20px] lg:text-[30px] xl:text-[50px] lg:h-[30px] xl:h-[50px]'>Global Finance</h1>
@@ -115,7 +115,7 @@ const  handleClickMenu =()=>{
 
       <div className='menu lg:hidded block shadow-xl rounded-xl'>
         <div className='bg-gray-200 w-full mx-auto max-w-[30px] p-1 rounded-full mb-5'></div>
-        <ul className='grid font-medium text-[#1D2E5C] text-[23px] font-["Tenor Sans"]'>
+        <ul className='grid font-medium text-[#1D2E5C] text-[23px] font-["tenorsans"]'>
           <li>
             <NavLink to="/">Home</NavLink>
           </li>
