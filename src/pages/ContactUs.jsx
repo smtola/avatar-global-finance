@@ -5,17 +5,17 @@ import Scroll from './components/Scroll';
 import emailjs from '@emailjs/browser';
 const ContactUs = () => {
 
-    const onSubmit = async (event) => {
-        event.preventDefault();
-        try{
-          emailjs.sendForm('service_uod7h27','template_hh9dheb',event.target,'zwrbkbntMIq-U7_Wn');
+    // const onSubmit = async (event) => {
+    //     event.preventDefault();
+    //     try{
+    //       emailjs.sendForm('service_uod7h27','template_hh9dheb',event.target,'zwrbkbntMIq-U7_Wn');
 
-          event.target.reset(); // Clear the form fields
-          alert('Message sent successfully!');
-        }catch(e){
-          alert("Error: " + e.message);
-        }
-      };
+    //       event.target.reset(); // Clear the form fields
+    //       alert('Message sent successfully!');
+    //     }catch(e){
+    //       alert("Error: " + e.message);
+    //     }
+    //   };
 
   return (
     <>
@@ -31,7 +31,7 @@ const ContactUs = () => {
                 </p>
             </div>
             <div data-aos="fade-up" className="card bg-base-100 w-full max-w-lg shrink-0 shadow-2xl">
-            <form onSubmit={onSubmit} className="card-body">
+            <form className="card-body">
                 <div className="form-control">
                 <label className="label">
                     <span className="label-text">Name: </span>

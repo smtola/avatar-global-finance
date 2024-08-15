@@ -7,6 +7,10 @@ const Contact = () => {
         className="hero"
         style={{
           backgroundImage: `url(${logoBgWhy})`,
+          backgroundPosition: 'center',
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
+          backgroundAttachment: 'fixed',
         }}>
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content py-0 text-neutral-content text-center">
@@ -18,7 +22,7 @@ const Contact = () => {
 
       <div className='grid lg:grid-cols-2'>
         <div 
-        className="hero bg-base-200 text-[#1D2E5C]  backdrop-blur-[5px] bg-opacity-[.1] shadow-lg">
+         className="hero bg-base-200 text-[#1D2E5C]  backdrop-blur-[5px] bg-opacity-[.1] shadow-lg">
         <div className="hero-content grid" data-aos="fade-up">
           <div className="text-center lg:text-left">
               <h1 className="text-5xl font-bold">Contact Our</h1>
