@@ -25,7 +25,7 @@ const ContactUs = () => {
         <div className="hero bg-[#1D2E5C] text-[#ffffff] md:translate-y-[-12%] backdrop-blur-[3px] bg-opacity-[.5] shadow-lg">
         <div className="hero-content grid">
             <div className="text-center lg:text-left" data-aos="fade-left">
-                <h1 className="text-5xl font-bold">Contact Our</h1>
+                <h1 className="text-5xl font-bold">Contact Us</h1>
                 <p className="py-6">
                     Please kindly key in the below information for us to best assist you. 
                 </p>

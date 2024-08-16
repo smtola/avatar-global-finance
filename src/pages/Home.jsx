@@ -137,7 +137,7 @@ const Home = () => {
                   <img src={imgEmp_8} className='mix-blend-darken pt-2' />
                 </div>
                 <h1 className='text-[#1D2E5C] text-[16px] md:text-[20px] mt-1'>Mrs. Uot Heang</h1>
-                <p className='text-[#828386]'>Founder & President</p>
+                <p className='text-[#828386]'>Accounting and Finance</p>
                 <div className="border-b-2 border-[#1D2E5C]"></div>
             </div>
 
@@ -147,7 +147,7 @@ const Home = () => {
                 <img src={imgEmp_1} className='mix-blend-multiply pt-2' />
                 </div>
                 <h1 className='text-[#1D2E5C] text-[16px] md:text-[20px] mt-1'>Mrs. Vann Theara</h1>
-                <p className='text-[#828386]'>Business Partner</p>
+                <p className='text-[#828386]'>Accounting and Finance</p>
                 <div className="border-b-2 border-[#1D2E5C]"></div>
             </div>
 
@@ -157,7 +157,7 @@ const Home = () => {
                 <img src={imgEmp_5} className='mix-blend-darken pt-2' />
                 </div>
                 <h1 className='text-[#1D2E5C] text-[16px] md:text-[20px] mt-1'>Mr. Chourn Chanthorn</h1>
-                <p className='text-[#828386]'>Business Partner</p>
+                <p className='text-[#828386]'>Accounting and Finance</p>
                 <div className="border-b-2 border-[#1D2E5C]"></div>
             </div>
 
@@ -167,7 +167,7 @@ const Home = () => {
                 <img src={imgEmp_2} className='mix-blend-multiply pt-2' />
                 </div>
                 <h1 className='text-[#1D2E5C] text-[16px] md:text-[20px] mt-1'>Ms. Tang Mouykheang</h1>
-                <p className='text-[#828386]'>Business Partner</p>
+                <p className='text-[#828386]'>Accounting and Finance</p>
                 <div className="border-b-2 border-[#1D2E5C]"></div>
             </div>
 
@@ -177,7 +177,7 @@ const Home = () => {
                 <img src={imgEmp_3} className='mix-blend-multiply pt-2' />
                 </div>
                 <h1 className='text-[#1D2E5C] text-[16px] md:text-[20px] mt-1'>Mrs. Phat Thoery</h1>
-                <p className='text-[#828386]'>Business Partner</p>
+                <p className='text-[#828386]'>Accounting and Finance</p>
                 <div className="border-b-2 border-[#1D2E5C]"></div>
             </div>
 
@@ -187,7 +187,7 @@ const Home = () => {
                 <img src={imgEmp_4} className='mix-blend-multiply pt-2' />
                 </div>
                 <h1 className='text-[#1D2E5C] text-[16px] md:text-[20px] mt-1'>Ms. Pann Panit</h1>
-                <p className='text-[#828386]'>Business Partner</p>
+                <p className='text-[#828386]'>Accounting and Finance</p>
                 <div className="border-b-2 border-[#1D2E5C]"></div>
             </div>
 
@@ -197,7 +197,7 @@ const Home = () => {
                 <img src={imgEmp_9} className='mix-blend-darken pt-2' />
                 </div>
                 <h1 className='text-[#1D2E5C] text-[16px] md:text-[20px] mt-1'>Ms. Cheng Daly</h1>
-                <p className='text-[#828386]'>Business Partner</p>
+                <p className='text-[#828386]'>Accounting and Finance</p>
                 <div className="border-b-2 border-[#1D2E5C]"></div>
             </div>
 
@@ -207,7 +207,7 @@ const Home = () => {
                 <img src={imgEmp_7} className='mix-blend-darken pt-2' />
                 </div>
                 <h1 className='text-[#1D2E5C] text-[16px] md:text-[20px] mt-1'>Mrs. An Sreynich</h1>
-                <p className='text-[#828386]'>Business Partner</p>
+                <p className='text-[#828386]'>Accounting and Finance</p>
                 <div className="border-b-2 border-[#1D2E5C]"></div>
             </div>
           </div>

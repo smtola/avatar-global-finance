@@ -24,7 +24,7 @@ const Blog = () => {
                   <p>What kind of questions will I be asked during external auditing?</p>
                 </div>
               </div>
-              <div className="collapse collapse-arrow join-item bg-[#D9D9D9] backdrop-blur-[5px] bg-opacity-[.1]">
+              {/* <div className="collapse collapse-arrow join-item bg-[#D9D9D9] backdrop-blur-[5px] bg-opacity-[.1]">
                 <input type="radio" name="my-accordion-4" />
                 <div className="collapse-title text-xl font-medium">Does my company call for an audit after three years of business operation ?</div>
                 <div className="collapse-content">
@@ -37,7 +37,7 @@ const Blog = () => {
                 <div className="collapse-content">
                   <p>What kind of questions will I be asked during external auditing?</p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
