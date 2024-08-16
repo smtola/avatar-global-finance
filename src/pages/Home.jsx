@@ -57,9 +57,9 @@ const Home = () => {
           className='absolute translate-x-[-50%] left-[70%] top-[40%] bottom-0 btn text-[#ffffff] backdrop-blur-[10px] bg-opacity-[.2] font-bold text-[16px] cursor-pointer'>Read More</button>
         </div>
         <div className='hidden lg:block'>
-          <div className='bg-gradient-to-r from-[#002561] to-[#1D2E5C] opacity-[0.85] w-full  md:max-w-[28rem] lg:max-w-[36rem] xl:max-w-[45rem] 2xl:max-w-[62rem] absolute top-20 md:top-8 lg:top-14 translate-x-[-50%] left-[50%] md:left-[71.9%]'>
+          <div className='bg-gradient-to-br from-[#002561] to-[#1D2E5C] backdrop-blur-[5px] opacity-[.85] w-full  md:max-w-[28rem] lg:max-w-[36rem] xl:max-w-[45rem] 2xl:max-w-[70rem] absolute top-20 md:top-8 lg:top-14 translate-x-[-50%] left-[50%] 2xl:left-[69%]'>
             <div className='p-[35px] xl:p-[60px] text-[#ffffff] font-["tenorsans"] z-[10]'>
-              <h1 className="text-[20px] lg:text-[30px] xl:text-[40px] 2xl:text-[64px]">Message From CEO</h1>  
+              <h1 className="text-[20px] lg:text-[30px] xl:text-[40px] 2xl:text-[54px]">Message From CEO</h1>  
               <p className='text-[11px] lg:text-[16px] 2xl:text-[26px]'>Dear Clients and Partners,
               <br/><br/>
               Thank you for choosing Avarta Global Finance and Accounting Firm. Since our inception on January 9, 2020, we have been dedicated to delivering top-quality services in consultation, business registration, tax exemption for Qualified Investment Projects (QIP), bookkeeping, and tax declaration. Our combined expertise in legal, tax, and accounting enables us to support your business effectively, ensuring compliance and minimizing risks.
@@ -76,7 +76,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className='lg:hidden block bg-gradient-to-r from-[#002561] to-[#1D2E5C] opacity-[0.85] w-full absolute top-44 md:top-[54%] scale-[.5] translate-x-[-100%] left-0 lg:left-[71.9%] msg transition-all duration-500'>
+        <div className='lg:hidden block bg-gradient-to-br from-[#002561] to-[#1D2E5C] backdrop-blur-[5px] opacity-[.85] w-full absolute top-44 md:top-[54%] scale-[.5] translate-x-[-100%] left-0 lg:left-[71.9%] msg transition-all duration-500'>
           <div className='p-[35px] xl:p-[60px] text-[#ffffff] font-["tenorsans"] z-[10]'>
             <h1 className="text-[20px] lg:text-[30px] xl:text-[40px] 2xl:text-[64px]">Message From CEO</h1>  
             <p className='text-[11px] lg:text-[16px] 2xl:text-[26px]'>Dear Clients and Partners,
@@ -214,7 +214,7 @@ const Home = () => {
       </div>
 
       <div className='bg-why-us'>
-        <h1 className='text-[30px] lg:text-[50px] font-["tenorsans"] font-medium text-center py-5 text-[#1D2E5C]'>Why Us?</h1>
+        <h1 className='text-[30px] lg:text-[50px] font-["tenorsans"] font-medium text-center py-5 text-[#ffffff]'>Why Us?</h1>
 
         <div className='w-full max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-2xl mx-auto '>
           <div data-aos="zoom-in"
