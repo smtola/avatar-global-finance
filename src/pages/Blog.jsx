@@ -14,7 +14,7 @@ const Blog = () => {
           <div data-aos="fade-right"  className='overflow-hidden'>
             <img src={bannerBlog} className='w-full mx-auto max-w-lg object-cover brightness-[.8]' />
           </div>
-          <div data-aos="fade-left"  className='p-10'>
+          <div data-aos="fade-left"  className='p-6'>
             <h1 className='text-[50px] text-center text-[#ffffff] mb-5'>Blog /FAQs</h1>
             <div className="join join-vertical w-full text-[#ffffff]">
               <div className="collapse collapse-arrow join-item bg-[#D9D9D9] backdrop-blur-[5px] bg-opacity-[.1]">
