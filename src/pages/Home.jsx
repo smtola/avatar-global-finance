@@ -49,7 +49,7 @@ const Home = () => {
       <div className='relative flex w-full z-[999]' data-aos="zoom-in">
         <div className='relative w-full lg:max-w-[50rem] xl:max-w-[57.5rem] 2xl:max-w-[100rem] overflow-hidden'>
           <img src={imgMask} alt="mask" className='contrast-[.9] brightness-[.7]'/>
-          <img src={imgCeo} alt="ceo" className='overflow-hidden absolute w-[24.5vh] md:w-[30.3vh] lg:w-[26vh] xl:w-[50.4vh] top-[50%] translate-y-[-50%] translate-x-[-50%] left-[30%] md:left-[30%] lg:left-[18%]' />
+          <img src={imgCeo} alt="ceo" className='overflow-hidden absolute w-[24.5vh] md:w-[30.3vh] lg:w-[26vh] xl:w-[50.4vh] top-[50%] translate-y-[-50%] translate-x-[-50%] left-[30%] md:left-[30%] lg:left-[30%] 2xl:left-[18%]'/>
         </div>
         <div className='block lg:hidden'>
           <button 
