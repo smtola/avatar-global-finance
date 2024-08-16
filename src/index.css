@@ -9,7 +9,7 @@
     src: url("./assets/font/TenorSans-Regular.ttf");
 }
 
-body:not(.fas):not(.fab){
+*:not(.fas):not(.fab){
     font-family: Tenor Sans, serif;
 }
 
