@@ -57,7 +57,7 @@ const Home = () => {
           className='absolute translate-x-[-50%] left-[70%] top-[40%] bottom-0 btn text-[#ffffff] backdrop-blur-[10px] bg-opacity-[.2] font-bold text-[16px] cursor-pointer'>Read More</button>
         </div>
         <div className='hidden lg:block'>
-          <div className='bg-gradient-to-br from-[#002561] to-[#1D2E5C] backdrop-blur-[5px] opacity-[.85] w-full md:max-w-[28rem] lg:max-w-[36rem] xl:max-w-[45rem] 2xl:max-w-[70rem] absolute top-[60%] translate-x-[-50%] translate-y-[-50%] lg:left-[72%] 2xl:left-[69%]'>
+          <div className='bg-gradient-to-br from-[#002561] to-[#1D2E5C] backdrop-blur-[5px] opacity-[.85] w-full md:max-w-[28rem] lg:max-w-[36rem] xl:max-w-[45rem] 2xl:max-w-[70rem] absolute top-[60%] translate-x-[-50%] translate-y-[-50%] lg:left-[72%] 2xl:left-[67%]'>
             <div className='p-[35px] xl:p-[60px] 2xl:py-[10rem] text-[#ffffff] font-["tenorsans"] z-[10]'>
               <h1 className="text-[30px] 2xl:text-[35px]">Message From CEO</h1>  
               <p className='text-[16px] 2xl:text-[20px]'>Dear Clients and Partners,
