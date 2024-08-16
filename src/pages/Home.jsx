@@ -57,10 +57,10 @@ const Home = () => {
           className='absolute translate-x-[-50%] left-[70%] top-[40%] bottom-0 btn text-[#ffffff] backdrop-blur-[10px] bg-opacity-[.2] font-bold text-[16px] cursor-pointer'>Read More</button>
         </div>
         <div className='hidden lg:block'>
-          <div className='bg-gradient-to-br from-[#002561] to-[#1D2E5C] backdrop-blur-[5px] opacity-[.85] w-full  md:max-w-[28rem] lg:max-w-[36rem] xl:max-w-[45rem] 2xl:max-w-[70rem] absolute top-[60%] translate-x-[-50%] translate-y-[-50%] lg:left-[72%] 2xl:left-[69%]'>
-            <div className='p-[35px] xl:p-[60px] text-[#ffffff] font-["tenorsans"] z-[10]'>
-              <h1 className="text-[20px] lg:text-[30px] xl:text-[40px] 2xl:text-[54px]">Message From CEO</h1>  
-              <p className='text-[11px] lg:text-[16px] 2xl:text-[26px]'>Dear Clients and Partners,
+          <div className='bg-gradient-to-br from-[#002561] to-[#1D2E5C] backdrop-blur-[5px] opacity-[.85] w-full md:max-w-[28rem] lg:max-w-[36rem] xl:max-w-[45rem] 2xl:max-w-[70rem] absolute top-[60%] translate-x-[-50%] translate-y-[-50%] lg:left-[72%] 2xl:left-[69%]'>
+            <div className='p-[35px] xl:p-[60px] 2xl:py-[10rem] text-[#ffffff] font-["tenorsans"] z-[10]'>
+              <h1 className="text-[30px] 2xl:text-[35px]">Message From CEO</h1>  
+              <p className='text-[16px] 2xl:text-[20px]'>Dear Clients and Partners,
               <br/><br/>
               Thank you for choosing Avarta Global Finance and Accounting Firm. Since our inception on January 9, 2020, we have been dedicated to delivering top-quality services in consultation, business registration, tax exemption for Qualified Investment Projects (QIP), bookkeeping, and tax declaration. Our combined expertise in legal, tax, and accounting enables us to support your business effectively, ensuring compliance and minimizing risks.
               <br/><br/>
@@ -100,9 +100,9 @@ const Home = () => {
             <h1 className='text-[#1D2E5C] text-center text-[34px]'>Our People</h1>
 
             <div data-aos="fade-up"
-              className='bg-[#ECF1F5] flex flex-wrap lg:flex-nowrap justify-center items-center rounded-xl lg:rounded-full gap-3 my-10 overflow-hidden px-12'>
+              className='bg-[#ECF1F5] flex flex-wrap lg:flex-nowrap justify-center items-center rounded-xl lg:rounded-full my-10 overflow-hidden px-12'>
               <div className='border-b-4 border-[#1D2E5C] lg:border-none'>
-                <img src={imgP_1} alt="team" className='w-full  mx-auto' />
+                <img src={imgP_1} alt="team" className='w-full  mx-auto ps-14 pe-0' />
               </div>
               <div className='py-5 lg:py-0 w-full max-w-2xl mx-auto'>
                 <h1 className='text-[17px] xl:text-[30px] 2xl:text-[36px] text-[#1D2E5C] font-medium'>H.E. SENG BUN HUY</h1>
@@ -114,7 +114,7 @@ const Home = () => {
               </div>
             </div>  
             <div data-aos="fade-down"
-              className='bg-[#ECF1F5] w-full flex flex-wrap lg:flex-nowrap justify-center items-center rounded-xl lg:rounded-full gap-3 my-10 overflow-hidden px-12'>
+              className='bg-[#ECF1F5] w-full flex flex-wrap lg:flex-nowrap justify-center items-center rounded-xl lg:rounded-full my-10 overflow-hidden px-12'>
               <div className='lg:text-end py-5 lg:py-0  w-full max-w-2xl mx-auto'>
                 <h1 className='text-[17px] xl:text-[28px] 2xl:text-[30px] text-[#1D2E5C] font-medium'>Mr. SENG SARUM</h1>
                 <p className='text-[14px] xl:text-[16px] 2xl:text-[18px] text-[#1D2E5C]'>is our Partner with the specialist in accounting and finance practice.
@@ -125,7 +125,7 @@ const Home = () => {
                 </p>
               </div>
               <div className='order-first lg:order-last border-b-4 border-[#1D2E5C] lg:border-none'>
-                <img src={imgP_2} alt="team" className='w-full mx-auto' />
+                <img src={imgP_2} alt="team" className='w-full mx-auto ps-0 pe-24' />
               </div>
             </div>  
           </div>
@@ -219,7 +219,7 @@ const Home = () => {
         <div className='w-full max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-2xl mx-auto '>
           <div data-aos="zoom-in"
             className='grid grid-cols-1 md:grid-cols-4 px-5 md:px-0 justify-center mx-[10px] mt-[10px] bg-[#1D2E5C] backdrop-blur-[1px] bg-opacity-50 rounded-md relative'>
-            <div className='flex gap-2 text-start md:flex-col p-[5px] xl:p-[2vw] 2xl:p-[4vw] md:text-center text-[#ffffff] font-["tenorsans"] hover:bg-[#ffffff] hover:shadow-xl hover:scale-[1.1] hover:text-[#1D2E5C] hover:first-line:text-[#068BFF] transition-all duration-150 '>
+            <div className='flex gap-2 z-[100] text-start md:flex-col p-[5px] xl:p-[2vw] 2xl:p-[4vw] md:text-center text-[#ffffff] font-["tenorsans"] hover:bg-[#ffffff] hover:shadow-xl hover:scale-[1.1] hover:text-[#1D2E5C] hover:first-line:text-[#068BFF] transition-all duration-150 '>
               <h1 className='text-[30px] 2xl:text-[50px] h-[56px] me-2 md:me-0'>1</h1>
               <div className='mt-2 md:mt-0'>
                 <h2 className='text-[13px] 2xl:text-[20px] md:px-[2vw] mb-2'>
@@ -232,7 +232,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div className='flex gap-2 text-start md:flex-col p-[5px] xl:p-[2vw] 2xl:p-[4vw] md:text-center text-[#ffffff] font-["tenorsans"] hover:bg-[#ffffff] hover:shadow-xl hover:scale-[1.1] hover:text-[#1D2E5C] hover:first-line:text-[#068BFF] transition-all duration-150'>
+            <div className='flex gap-2 z-[100] text-start md:flex-col p-[5px] xl:p-[2vw] 2xl:p-[4vw] md:text-center text-[#ffffff] font-["tenorsans"] hover:bg-[#ffffff] hover:shadow-xl hover:scale-[1.1] hover:text-[#1D2E5C] hover:first-line:text-[#068BFF] transition-all duration-150'>
               <h1 className='text-[30px] 2xl:text-[50px] h-[56px]'>2</h1>
               <div className='mt-2 md:mt-0'>
                 <h2 className='text-[13px] 2xl:text-[20px] md:px-[1vw] mb-2'>
@@ -241,7 +241,8 @@ const Home = () => {
                 Experience
                 </h2>
                 <p className='text-[10px] lg:text-[11px] 2xl:text-[16px]'>
-                  Since 2020, we have gone beyond mere service delivery by helping clients establish bookkeeping records, analyze profit and loss statements, and understand their financial figures to ensure comprehensive business performance. We also assist in making informed decisions for business growth and successfully closing companies at minimal cost.
+                  Since 2020, we have gone beyond mere service delivery by helping clients establish bookkeeping records, 
+                  <p className='truncate ... hover:whitespace-pre hover:overflow-visible hover:text-pretty cursor-pointer'>analyze profit and loss statements, and understand their financial figures to ensure comprehensive business performance. We also assist in making informed decisions for business growth and successfully closing companies at minimal cost.</p>
                 </p>
               </div>
             </div>

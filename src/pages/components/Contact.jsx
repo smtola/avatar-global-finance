@@ -3,7 +3,7 @@ import logoBgWhy from '../../assets/images/bg_why_2.jpg';
 const Contact = () => {
   return (
     <>
-      <div className='grid lg:grid-cols-2 items-center'>
+      <div className='grid lg:grid-cols-2 items-center z-[50]'>
         <div 
          className="hero bg-base-200 text-[#1D2E5C]  backdrop-blur-[5px] bg-opacity-[.1] shadow-lg">
           <div className="hero-content grid" data-aos="fade-up">

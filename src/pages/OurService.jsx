@@ -26,77 +26,77 @@ const OurService = () => {
               </p>
             </div>
             <main className='pb-0 md:pb-[10vh]'>
-              <div data-aos="fade-left" className='w-full max-w-screen-lg mx-auto bg-[#1D2E5C] text-[#ffffff] p-10'>
+              <div data-aos="fade-left" className='w-full max-w-screen-lg mx-auto bg-[#1D2E5C] text-[#ffffff] p-6'>
                 <div className='grid grid-cols-1 md:grid-cols-4 justify-center gap-[1vw]'>
-                  <div className='p-5 border-b-2 border-[#0488FF] hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] transition-all duration-300'>
+                  <div className='p-3 2xl:p-5 border-b-2 border-[#0488FF] hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] transition-all duration-300'>
                     <img src={iconSv_1} className='w-[6vh] md:w-[3vh] lg:w-[7vh] mx-auto mb-3' />
-                    <h1 className='font-medium text-[12px] 2xl:text-[20px] text-center'>Consultation</h1>
+                    <h1 className='font-medium text-[14px] 2xl:text-[17px] text-center'>Consultation</h1>
                   </div>
 
-                  <div className='p-5 border-b-2 border-[#0488FF] hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] transition-all duration-300'>
+                  <div className='p-3 2xl:p-5 border-b-2 border-[#0488FF] hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] transition-all duration-300'>
                     <img src={iconSv_2} className='w-[6vh] md:w-[3vh] lg:w-[7vh] mx-auto mb-3' />
-                    <h1 className='font-medium text-[12px] 2xl:text-[20px] text-center'>
+                    <h1 className='font-medium text-[14px] 2xl:text-[17px] text-center'>
                       Business
-                      Registration Service
+                      Registration Servic
                     </h1>
-                    <p className='text-[11px] lg:text-[13px] text-center mt-3'>
+                    <p className='text-[11px] lg:text-[15px] text-center mt-3 px-0 2xl:px-5'>
                       Small Taxpayer
                       Medium Taxpayer
                       Large Taxpayer
                     </p>
                   </div>
 
-                  <div className='p-5 border-b-2 border-[#0488FF] hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] transition-all duration-300'>
+                  <div className='p-3 2xl:p-5 border-b-2 border-[#0488FF] hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] transition-all duration-300'>
                     <img src={iconSv_3} className='w-[6vh] md:w-[3vh] lg:w-[7vh] mx-auto mb-3' />
-                    <h1 className='font-medium text-[12px] 2xl:text-[20px] text-center'>
+                    <h1 className='font-medium text-[14px] 2xl:text-[17px] text-center'>
                       Accounting and
                       Financing Service
                     </h1>
-                    <p className='text-[11px] lg:text-[13px] text-center mt-3'>
+                    <p className='text-[11px] lg:text-[15px] text-center mt-3'>
                     Monthly Bookkeeping 
                     Financial Statement Preparation 
                     </p>
                   </div>
 
-                  <div className='p-5 border-b-2 border-[#0488FF] hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] transition-all duration-300'>
+                  <div className='p-3 2xl:p-5 border-b-2 border-[#0488FF] hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] transition-all duration-300'>
                     <img src={iconSv_4} className='w-[6vh] md:w-[3vh] lg:w-[7vh] mx-auto mb-3' />
-                    <h1 className='font-medium text-[12px] 2xl:text-[20px] text-center'>
+                    <h1 className='font-medium text-[14px] 2xl:text-[17px] text-center'>
                       Tax Declaration
                       Service
                     </h1>
-                    <p className='text-[11px] lg:text-[13px] text-center mt-3'>
+                    <p className='text-[11px] lg:text-[15px] text-center mt-3'>
                     Monthly Tax Declaration 
                     Yearly Tax Declaration
                     </p>
                   </div>
 
-                  <div className='p-5 hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] md:hover:translate-y-[12%] transition-all duration-300'>
+                  <div className='p-3 2xl:p-5 hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] md:hover:translate-y-[12%] transition-all duration-300'>
                     <img src={iconSv_5} className='w-[6vh] md:w-[3vh] lg:w-[7vh] mx-auto mb-3' />
-                    <h1 className='font-medium text-[12px] 2xl:text-[20px] text-center pb-10'>
+                    <h1 className='font-medium text-[12px] 2xl:text-[17px] text-center pb-10'>
                       Tax/Audit
                       Resolution Service
                     </h1>
                   </div>
 
-                  <div className='p-5 hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] md:hover:translate-y-[12%] transition-all duration-300'>
+                  <div className='p-3 2xl:p-5 hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] md:hover:translate-y-[12%] transition-all duration-300'>
                     <img src={iconSv_6} className='w-[6vh] md:w-[3vh] lg:w-[7vh] mx-auto mb-3' />
-                    <h1 className='font-medium text-[12px] 2xl:text-[20px] text-center pb-10'>
+                    <h1 className='font-medium text-[14px] 2xl:text-[17px] text-center pb-10'>
                     Tax Exemption
                     Request Service
                     </h1>
                   </div>
 
-                  <div className='p-5 hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] md:hover:translate-y-[12%] transition-all duration-300'>
+                  <div className='p-3 2xl:p-5 hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] md:hover:translate-y-[12%] transition-all duration-300'>
                     <img src={iconSv_7} className='w-[6vh] md:w-[3vh] lg:w-[7vh] mx-auto mb-3' />
-                    <h1 className='font-medium text-[12px] 2xl:text-[20px] text-center pb-10'>
+                    <h1 className='font-medium text-[14px] 2xl:text-[17px] text-center pb-10'>
                     Company’s Update
                     Service
                     </h1>
                   </div>
 
-                  <div className='p-5 hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] md:hover:translate-y-[12%] transition-all duration-300'>
+                  <div className='p-3 2xl:p-5 hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] md:hover:translate-y-[12%] transition-all duration-300'>
                     <img src={iconSv_8} className='w-[6vh] md:w-[3vh] lg:w-[7vh] mx-auto mb-3' />
-                    <h1 className='font-medium text-[12px] 2xl:text-[20px] text-center pb-10'>
+                    <h1 className='font-medium text-[14px] 2xl:text-[17px] text-center pb-10'>
                     Company’s Closure
                     Service
                     </h1>
