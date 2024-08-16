@@ -52,12 +52,13 @@ const Contact = () => {
         </div>
       </div>
       <div
-        className="hero"
+        className="hero bg-opacity-5"
         style={{
           backgroundImage: `url(${logoBgWhy})`,
           backgroundPosition: 'center',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
+          
         }}>
         <div className="hero-content py-0 text-neutral-content text-center">
           <div className="max-w-lg xl:max-w-xl md:py-10">
