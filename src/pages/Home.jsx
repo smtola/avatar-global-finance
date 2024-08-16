@@ -49,7 +49,7 @@ const Home = () => {
       <div className='relative flex w-full z-[999]' data-aos="zoom-in">
         <div className='relative w-full lg:max-w-[50rem] xl:max-w-[57.5rem] 2xl:max-w-[100rem] overflow-hidden'>
           <img src={imgMask} alt="mask" className='contrast-[.9] brightness-[.7]'/>
-          <img src={imgCeo} alt="ceo" className='overflow-hidden absolute w-[24.5vh] md:w-[30.3vh] lg:w-[26vh] xl:w-[50.4vh] top-[-2%] translate-x-[-50%] left-[30%] md:left-[30%] lg:left-[18%]' />
+          <img src={imgCeo} alt="ceo" className='overflow-hidden absolute w-[24.5vh] md:w-[30.3vh] lg:w-[26vh] xl:w-[50.4vh] top-[50%] translate-y-[-50%] translate-x-[-50%] left-[30%] md:left-[30%] lg:left-[18%]' />
         </div>
         <div className='block lg:hidden'>
           <button 
@@ -57,7 +57,7 @@ const Home = () => {
           className='absolute translate-x-[-50%] left-[70%] top-[40%] bottom-0 btn text-[#ffffff] backdrop-blur-[10px] bg-opacity-[.2] font-bold text-[16px] cursor-pointer'>Read More</button>
         </div>
         <div className='hidden lg:block'>
-          <div className='bg-gradient-to-br from-[#002561] to-[#1D2E5C] backdrop-blur-[5px] opacity-[.85] w-full  md:max-w-[28rem] lg:max-w-[36rem] xl:max-w-[45rem] 2xl:max-w-[70rem] absolute top-20 md:top-8 lg:top-14 translate-x-[-50%] left-[50%] 2xl:left-[69%]'>
+          <div className='bg-gradient-to-br from-[#002561] to-[#1D2E5C] backdrop-blur-[5px] opacity-[.85] w-full  md:max-w-[28rem] lg:max-w-[36rem] xl:max-w-[45rem] 2xl:max-w-[70rem] absolute top-[60%] translate-x-[-50%] translate-y-[-50%] lg:left-[72%] 2xl:left-[69%]'>
             <div className='p-[35px] xl:p-[60px] text-[#ffffff] font-["tenorsans"] z-[10]'>
               <h1 className="text-[20px] lg:text-[30px] xl:text-[40px] 2xl:text-[54px]">Message From CEO</h1>  
               <p className='text-[11px] lg:text-[16px] 2xl:text-[26px]'>Dear Clients and Partners,
