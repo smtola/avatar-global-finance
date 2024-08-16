@@ -10,10 +10,6 @@
     src: url("./assets/font/TenorSans-Regular.ttf");
 }
 
-*:not(.fas):not(.fab){
-    font-family: Tenor Sans, serif;
-}
-
 body{
     padding:0;
     margin: 0;
