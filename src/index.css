@@ -3,17 +3,19 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
 
 @font-face {
     font-family: Tenor Sans;
     src: url("./assets/font/TenorSans-Regular.ttf");
 }
 
+body:not(.fas):not(.fab){
+    font-family: Tenor Sans, serif;
+}
+
 body{
     padding:0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Tenor Sans, sans-serif;
 }
 
