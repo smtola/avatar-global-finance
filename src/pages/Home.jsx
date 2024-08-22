@@ -1,12 +1,13 @@
 import "./Home.css";
 import imgMask from "../assets/images/mask.jpg";
 import imgCeo from "../assets/images/ceo_and_manager/ceo.png";
-import imgP_1 from "../assets/images/ceo_and_manager/p_1.png";
+import imgManager from "../assets/images/ceo_and_manager/manager.png";
 import imgP_2 from "../assets/images/ceo_and_manager/p_2.png";
 import imgEmp_1 from "../assets/images/ceo_and_manager/emp_1.png";
 import imgEmp_2 from "../assets/images/ceo_and_manager/emp_2.png";
 import imgEmp_3 from "../assets/images/ceo_and_manager/emp_3.png";
 import imgEmp_4 from "../assets/images/ceo_and_manager/emp_4.png";
+import imgEmp_6 from "../assets/images/ceo_and_manager/emp_6.png";
 import imgEmp_5 from "../assets/images/ceo_and_manager/emp_5.png";
 import imgEmp_7 from "../assets/images/ceo_and_manager/emp_7.png";
 import imgEmp_8 from "../assets/images/ceo_and_manager/emp_8.png";
@@ -80,7 +81,7 @@ const Home = () => {
           className='absolute translate-x-[-50%] left-[70%] top-[40%] bottom-0 btn text-[#ffffff] backdrop-blur-[10px] bg-opacity-[.2] font-bold text-[16px] cursor-pointer'>Read More</button>
         </div>
         <div className='hidden lg:block'>
-          <div className='bg-gradient-to-br from-[#002561] to-[#1D2E5C] backdrop-blur-[5px] opacity-[.85] w-full md:max-w-[28rem] lg:max-w-[36rem] xl:max-w-[45rem] 2xl:max-w-[70rem] absolute top-[60%] translate-x-[-50%] translate-y-[-50%] lg:left-[72%] 2xl:left-[68.9%]'>
+          <div className='bg-gradient-to-br from-[#002561] to-[#1D2E5C] backdrop-blur-[5px] opacity-[.85] w-full md:max-w-[28rem] lg:max-w-[36rem] xl:max-w-[45rem] 2xl:max-w-[69.8rem] absolute top-[60%] translate-x-[-50%] translate-y-[-50%] lg:left-[72%] 2xl:left-[68.9%]'>
             <div className='p-[35px] xl:p-[60px] 2xl:py-[10rem] text-[#ffffff] font-["tenorsans"] z-[10]'>
               <h1 className="text-[30px] 2xl:text-[35px]">Message From President</h1>  
               <p className='text-[16px] 2xl:text-[20px]'> Missing Message
@@ -110,7 +111,7 @@ His Excellency held a L.L.B (Royal University of Law and Economics â€“ Faculty o
           >
             <div className="border-b-4 border-[#1D2E5C] lg:border-none">
               <img
-                src={imgP_1}
+                src={imgManager}
                 alt="team"
                 className="w-full  mx-auto ps-14 pe-0"
               />
@@ -165,54 +166,26 @@ He held a BA in Accounting and Finance (Royal University of Law and Economics â€
             className="w-full max-w-[174px] md:max-w-[248px] mx-auto text-start"
           >
             <div className="w-[100px] h-[100px] mx-auto md:w-[184px] md:h-[184px] overflow-hidden bg-[#ECF1F5] p-2 rounded-full">
-              <img src={imgEmp_8} className="mix-blend-darken pt-2" />
+              <img src={imgEmp_1} className="mix-blend-darken pt-2" />
             </div>
             <h1 className="text-[#1D2E5C] text-[16px] md:text-[17px] mt-1">
-              Mr. Chourn Chanthorn
-            </h1>
-            <p className="text-[#828386]">Supervisor Accounting & Tax</p>
-            <div className="border-b-2 border-[#1D2E5C]"></div>
-          </div>
-
-          <div
-            data-aos="zoom-in"
-            className="w-full max-w-[174px] md:max-w-[248px] mx-auto text-start"
-          >
-            <div className="w-[100px] h-[100px] mx-auto md:w-[184px] md:h-[184px] overflow-hidden bg-[#ECF1F5] p-2 rounded-full">
-              <img src={imgEmp_8} className="mix-blend-darken pt-2" />
-            </div>
-            <h1 className="text-[#1D2E5C] text-[16px] md:text-[17px] mt-1">
-              Mr. SENG VICHET
-            </h1>
-            <p className="text-[#828386]">Partner</p>
-            <div className="border-b-2 border-[#1D2E5C]"></div>
-          </div>
-
-          <div
-            data-aos="zoom-in"
-            className="w-full max-w-[174px] md:max-w-[248px] mx-auto text-start"
-          >
-            <div className="w-[100px] h-[100px] mx-auto md:w-[184px] md:h-[184px] overflow-hidden bg-[#ECF1F5] p-2 rounded-full">
-              <img src={imgEmp_8} className="mix-blend-darken pt-2" />
-            </div>
-            <h1 className="text-[#1D2E5C] text-[16px] md:text-[17px]  mt-1">
-              Vutha Manin
-            </h1>
-            <p className="text-[#828386] ">Senior Accountant</p>
-            <div className="border-b-2 border-[#1D2E5C]"></div>
-          </div>
-
-          <div
-            data-aos="zoom-in"
-            className="w-full max-w-[174px] md:max-w-[248px] mx-auto text-start"
-          >
-            <div className="w-[100px] h-[100px] mx-auto md:w-[184px] md:h-[184px] overflow-hidden bg-[#ECF1F5] p-2 rounded-full">
-              <img src={imgEmp_8} className="mix-blend-darken pt-2" />
-            </div>
-            <h1 className="text-[#1D2E5C] text-[16px] md:text-[17px]  mt-1">
               Mrs. Vann Theara
             </h1>
-            <p className="text-[#828386] ">Accountant</p>
+            <p className="text-[#828386]">Senior Accountant</p>
+            <div className="border-b-2 border-[#1D2E5C]"></div>
+          </div>
+
+          <div
+            data-aos="zoom-in"
+            className="w-full max-w-[174px] md:max-w-[248px] mx-auto text-start"
+          >
+            <div className="w-[100px] h-[100px] mx-auto md:w-[184px] md:h-[184px] overflow-hidden bg-[#ECF1F5] p-2 rounded-full">
+              <img src={imgEmp_5} className="mix-blend-darken pt-2" />
+            </div>
+            <h1 className="text-[#1D2E5C] text-[16px] md:text-[17px] mt-1">
+              Mr. Chourn Chanthorn 
+            </h1>
+            <p className="text-[#828386]">Supervisor Accounting & Tax </p>
             <div className="border-b-2 border-[#1D2E5C]"></div>
           </div>
 
@@ -222,6 +195,20 @@ He held a BA in Accounting and Finance (Royal University of Law and Economics â€
           >
             <div className="w-[100px] h-[100px] mx-auto md:w-[184px] md:h-[184px] overflow-hidden bg-[#ECF1F5] p-2 rounded-full">
               <img src={imgEmp_8} className="mix-blend-darken pt-2" />
+            </div>
+            <h1 className="text-[#1D2E5C] text-[16px] md:text-[17px]  mt-1">
+              RORN RYSA
+            </h1>
+            <p className="text-[#828386] ">Admin</p>
+            <div className="border-b-2 border-[#1D2E5C]"></div>
+          </div>
+
+          <div
+            data-aos="zoom-in"
+            className="w-full max-w-[174px] md:max-w-[248px] mx-auto text-start"
+          >
+            <div className="w-[100px] h-[100px] mx-auto md:w-[184px] md:h-[184px] overflow-hidden bg-[#ECF1F5] p-2 rounded-full">
+              <img src={imgEmp_2} className="mix-blend-darken pt-2" />
             </div>
             <h1 className="text-[#1D2E5C] text-[16px] md:text-[17px]  mt-1">
               Ms. Tang Mouykheang
@@ -235,7 +222,7 @@ He held a BA in Accounting and Finance (Royal University of Law and Economics â€
             className="w-full max-w-[174px] md:max-w-[248px] mx-auto text-start"
           >
             <div className="w-[100px] h-[100px] mx-auto md:w-[184px] md:h-[184px] overflow-hidden bg-[#ECF1F5] p-2 rounded-full">
-              <img src={imgEmp_8} className="mix-blend-darken pt-2" />
+              <img src={imgEmp_3} className="mix-blend-darken pt-2" />
             </div>
             <h1 className="text-[#1D2E5C] text-[16px] md:text-[17px]  mt-1">
               Mrs. Phat Thoery
@@ -249,7 +236,7 @@ He held a BA in Accounting and Finance (Royal University of Law and Economics â€
             className="w-full max-w-[174px] md:max-w-[248px] mx-auto text-start"
           >
             <div className="w-[100px] h-[100px] mx-auto md:w-[184px] md:h-[184px] overflow-hidden bg-[#ECF1F5] p-2 rounded-full">
-              <img src={imgEmp_8} className="mix-blend-darken pt-2" />
+              <img src={imgEmp_7} className="mix-blend-darken pt-2" />
             </div>
             <h1 className="text-[#1D2E5C] text-[16px] md:text-[17px]  mt-1">
               Mrs. An Sreynich
@@ -263,10 +250,10 @@ He held a BA in Accounting and Finance (Royal University of Law and Economics â€
             className="w-full max-w-[174px] md:max-w-[248px] mx-auto text-start"
           >
             <div className="w-[100px] h-[100px] mx-auto md:w-[184px] md:h-[184px] overflow-hidden bg-[#ECF1F5] p-2 rounded-full">
-              <img src={imgEmp_8} className="mix-blend-darken pt-2" />
+              <img src={imgEmp_9} className="mix-blend-darken pt-2" />
             </div>
             <h1 className="text-[#1D2E5C] text-[16px] md:text-[17px]  mt-1">
-            Ms. Cheng Daly 
+              Ms. Cheng Daly
             </h1>
             <p className="text-[#828386] ">Accountant</p>
             <div className="border-b-2 border-[#1D2E5C]"></div>
@@ -277,7 +264,7 @@ He held a BA in Accounting and Finance (Royal University of Law and Economics â€
             className="w-full max-w-[174px] md:max-w-[248px] mx-auto text-start"
           >
             <div className="w-[100px] h-[100px] mx-auto md:w-[184px] md:h-[184px] overflow-hidden bg-[#ECF1F5] p-2 rounded-full">
-              <img src={imgEmp_8} className="mix-blend-darken pt-2" />
+              <img src={imgEmp_4} className="mix-blend-darken pt-2" />
             </div>
             <h1 className="text-[#1D2E5C] text-[16px] md:text-[17px]  mt-1">
               Ms. Pann Panit
@@ -294,9 +281,23 @@ He held a BA in Accounting and Finance (Royal University of Law and Economics â€
               <img src={imgEmp_8} className="mix-blend-darken pt-2" />
             </div>
             <h1 className="text-[#1D2E5C] text-[16px] md:text-[17px]  mt-1">
-               RORN RYSA 
+             Mr. SENG VICHET
             </h1>
-            <p className="text-[#828386] ">Admin</p>
+            <p className="text-[#828386] ">Partner</p>
+            <div className="border-b-2 border-[#1D2E5C]"></div>
+          </div>
+
+          <div
+            data-aos="zoom-in"
+            className="w-full max-w-[174px] md:max-w-[248px] mx-auto text-start"
+          >
+            <div className="w-[100px] h-[100px] mx-auto md:w-[184px] md:h-[184px] overflow-hidden bg-[#ECF1F5] p-2 rounded-full">
+              <img src={imgEmp_6} className="mix-blend-darken pt-2" />
+            </div>
+            <h1 className="text-[#1D2E5C] text-[16px] md:text-[17px]  mt-1">
+              Vutha Manin 
+            </h1>
+            <p className="text-[#828386] ">Tax Assistant</p>
             <div className="border-b-2 border-[#1D2E5C]"></div>
           </div>
         </div>
