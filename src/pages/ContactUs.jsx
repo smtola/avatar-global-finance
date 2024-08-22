@@ -36,31 +36,31 @@ const ContactUs = () => {
                 <label className="label">
                     <span className="label-text">Name: </span>
                 </label>
-                <input type="text" placeholder="Your name" name='from_name' className="input input-bordered" required />
+                <input type="text" placeholder="Your name" name='from_name' className="input input-bordered text-gray-500" autocomplete="off" required />
                 </div>
                 <div className="form-control">
                     <label className="label">
                         <span className="label-text">Phone Number</span>
                     </label>
-                    <input type="text" placeholder="Phone Number" name='phone' className="input input-bordered" required />
+                    <input type="text" placeholder="Phone Number" name='phone' className="input input-bordered text-gray-500" autocomplete="off" required />
                 </div>
                 <div className="form-control">
                     <label className="label">
                         <span className="label-text">Email</span>
                     </label>
-                    <input type="email" placeholder="Email" name='from_email' className="input input-bordered" required />
+                    <input type="email" placeholder="Email" name='from_email' className="input input-bordered text-gray-500" autocomplete="off" required />
                 </div>
                 <div className="form-control">
                     <label className="label">
                         <span className="label-text">Subject</span>
                     </label>
-                    <input type="text" placeholder="Subject" name='subject' className="input input-bordered" required />
+                    <input type="text" placeholder="Subject" name='subject' className="input input-bordered text-gray-500" autocomplete="off" required />
                 </div>
                 <div className="form-control">
                     <label className="label">
                         <span className="label-text">Your message (optional)</span>
                     </label>
-                    <textarea className="textarea textarea-bordered" name='message' placeholder="Additional Message"></textarea>
+                    <textarea className="textarea textarea-bordered text-gray-500" autocomplete="off" name='message' placeholder="Additional Message"></textarea>
                 </div>
                 <div className="form-control mt-6">
                     <button type='submit' className="btn bg-[#1D2E5C] text-[#ffffff] hover:bg-[#27396b]">Submit</button>
