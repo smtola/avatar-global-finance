@@ -10,7 +10,7 @@ const Blog = () => {
     <>
     <Scroll />
       <Navbars />
-      <div className='bg-[#ffffff] w-full max-w-screen-lg 2xl:max-w-screen-lg mx-auto'>
+      <div className='bg-[#ffffff] w-full max-w-screen-md xl:max-w-screen-lg mx-auto'>
         <Swappers/>
       </div>
       <Contact />

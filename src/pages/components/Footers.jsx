@@ -5,12 +5,12 @@ const Footers = () => {
   return (
     <>
       <footer className='bg-[#1D2E5C] w-full  mx-auto'>
-        <div className='flex flex-wrap lg:flex-nowrap justify-evenly gap-5 py-16 px-5'>
+        <div className='flex flex-wrap lg:flex-nowrap justify-evenly gap-[5vw] py-16 px-5'>
           <div className="w-full max-w-lg mx-auto" data-aos="zoom-in">
             <img src={logoWhite} alt="logo" className='w-[30vh] xl:w-[60vh] max-lg:mx-auto my-3'/>
           </div>
-          <div className='grid grid-cols-1 md:grid-cols-2 justify-center gap-4'>
-            <div className="grid grid-cols-2 justify-between md:grid-cols-1 lg:justify-center">
+          <div className='grid grid-cols-12 gap-3'>
+            <div className="col-span-12 lg:col-span-4 max-sm:flex max-sm:gap-[5vw]">
               <ul className='font-["tenorsans"] font-medium text-white'>
                 <li><h1 className='text-[20px] xl:text-[30px] font-["tenorsans"] font-medium text-white my-4'>Office Contact</h1></li>
                 <li>Mr. NGUON SO SOK HEANG </li>
@@ -67,7 +67,7 @@ const Footers = () => {
               </ul>
             </div>
 
-            <div >
+            <div className='col-span-12 lg:col-span-8'>
               <h1 className='text-[20px] xl:text-[30px] font-["tenorsans"] font-medium text-white my-4'>Operation Contact</h1>
               <ul className='font-["tenorsans"] font-medium text-white'>
                 <li data-aos="zoom-in" className='flex gap-2 my-1'>

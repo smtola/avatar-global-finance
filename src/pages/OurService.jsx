@@ -3,14 +3,19 @@ import Navbars from './components/Navbars';
 import Footers from './components/Footers';
 import Contact from './components/Contact';
 
-import iconSv_1 from '../assets/images/sv_icon_1.png';
-import iconSv_2 from '../assets/images/sv_icon_2.png';
-import iconSv_3 from '../assets/images/sv_icon_3.png';
-import iconSv_4 from '../assets/images/sv_icon_4.png';
-import iconSv_5 from '../assets/images/sv_icon_5.png';
-import iconSv_6 from '../assets/images/sv_icon_6.png';
-import iconSv_7 from '../assets/images/sv_icon_7.png';
-import iconSv_8 from '../assets/images/sv_icon_8.png';
+import iconSv_1 from '../assets/images/icon_1.png';
+import iconSv_2 from '../assets/images/icon_2.png';
+import iconSv_3 from '../assets/images/icon_3.png';
+import iconSv_4 from '../assets/images/icon_4.png';
+import iconSv_5 from '../assets/images/icon_5.png';
+import iconSv_6 from '../assets/images/icon_6.png';
+import iconSv_7 from '../assets/images/icon_7.png';
+import iconSv_8 from '../assets/images/icon_8.png';
+import iconSv_9 from '../assets/images/icon_9.png';
+import iconSv_10 from '../assets/images/icon_10.png';
+import iconSv_11 from '../assets/images/icon_11.png';
+import iconSv_12 from '../assets/images/icon_12.png';
+import iconSv_13 from '../assets/images/icon_13.png';
 const OurService = () => {
   return (
     <>
@@ -83,35 +88,35 @@ const OurService = () => {
                   </div>
 
                   <div className='p-3 2xl:p-5 border-[#0488FF] border-b-2 hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] md:hover:translate-y-[12%] transition-all duration-300'>
-                    <img src={iconSv_8} className='w-[6vh] md:w-[3vh] lg:w-[7vh] mx-auto mb-3' />
+                    <img src={iconSv_9} className='w-[6vh] md:w-[3vh] lg:w-[7vh] mx-auto mb-3' />
                     <h1 className='font-medium text-[14px] 2xl:text-[17px] text-center pb-10'>
                     		Statutory Audit (Limited Audit or Comprehensive Audit)
                     </h1>
                   </div>
 
                   <div className='p-3 2xl:p-5 border-[#0488FF] border-b-2 hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] md:hover:translate-y-[12%] transition-all duration-300'>
-                    <img src={iconSv_8} className='w-[6vh] md:w-[3vh] lg:w-[7vh] mx-auto mb-3' />
+                    <img src={iconSv_10} className='w-[6vh] md:w-[3vh] lg:w-[7vh] mx-auto mb-3' />
                     <h1 className='font-medium text-[14px] 2xl:text-[17px] text-center pb-10'>
                     		Transfer Pricing Application 
                     </h1>
                   </div>
 
                   <div className='p-3 2xl:p-5 border-[#0488FF] border-b-2 hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] md:hover:translate-y-[12%] transition-all duration-300'>
-                    <img src={iconSv_8} className='w-[6vh] md:w-[3vh] lg:w-[7vh] mx-auto mb-3' />
+                    <img src={iconSv_11} className='w-[6vh] md:w-[3vh] lg:w-[7vh] mx-auto mb-3' />
                     <h1 className='font-medium text-[14px] 2xl:text-[17px] text-center pb-10'>
                     		Double Tax Application
                     </h1>
                   </div>
 
                   <div className='p-3 2xl:p-5 border-[#0488FF] border-b-2 hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] md:hover:translate-y-[12%] transition-all duration-300'>
-                    <img src={iconSv_8} className='w-[6vh] md:w-[3vh] lg:w-[7vh] mx-auto mb-3' />
+                    <img src={iconSv_12} className='w-[6vh] md:w-[3vh] lg:w-[7vh] mx-auto mb-3' />
                     <h1 className='font-medium text-[14px] 2xl:text-[17px] text-center pb-10'>
                     	QIP Tax Exemption Service           
                     </h1>
                   </div>
 
                   <div className='p-3 2xl:p-5 border-[#0488FF] border-b-2 hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] md:hover:translate-y-[12%] transition-all duration-300'>
-                    <img src={iconSv_8} className='w-[6vh] md:w-[3vh] lg:w-[7vh] mx-auto mb-3' />
+                    <img src={iconSv_13} className='w-[6vh] md:w-[3vh] lg:w-[7vh] mx-auto mb-3' />
                     <h1 className='font-medium text-[14px] 2xl:text-[17px] text-center pb-10'>
                     	Tax Litigation            
                     </h1>
