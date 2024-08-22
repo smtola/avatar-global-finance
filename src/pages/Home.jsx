@@ -194,7 +194,7 @@ He held a BA in Accounting and Finance (Royal University of Law and Economics â€
             className="w-full max-w-[174px] md:max-w-[248px] mx-auto text-start"
           >
             <div className="w-[100px] h-[100px] mx-auto md:w-[184px] md:h-[184px] overflow-hidden bg-[#ECF1F5] p-2 rounded-full">
-              <img src={imgEmp_8} className="mix-blend-darken pt-2" />
+              <img src={imgEmp_6} className="mix-blend-darken pt-2" />
             </div>
             <h1 className="text-[#1D2E5C] text-[16px] md:text-[17px]  mt-1">
               RORN RYSA
@@ -279,20 +279,6 @@ He held a BA in Accounting and Finance (Royal University of Law and Economics â€
           >
             <div className="w-[100px] h-[100px] mx-auto md:w-[184px] md:h-[184px] overflow-hidden bg-[#ECF1F5] p-2 rounded-full">
               <img src={imgEmp_8} className="mix-blend-darken pt-2" />
-            </div>
-            <h1 className="text-[#1D2E5C] text-[16px] md:text-[17px]  mt-1">
-             Mr. SENG VICHET
-            </h1>
-            <p className="text-[#828386] ">Partner</p>
-            <div className="border-b-2 border-[#1D2E5C]"></div>
-          </div>
-
-          <div
-            data-aos="zoom-in"
-            className="w-full max-w-[174px] md:max-w-[248px] mx-auto text-start"
-          >
-            <div className="w-[100px] h-[100px] mx-auto md:w-[184px] md:h-[184px] overflow-hidden bg-[#ECF1F5] p-2 rounded-full">
-              <img src={imgEmp_6} className="mix-blend-darken pt-2" />
             </div>
             <h1 className="text-[#1D2E5C] text-[16px] md:text-[17px]  mt-1">
               Vutha Manin 
