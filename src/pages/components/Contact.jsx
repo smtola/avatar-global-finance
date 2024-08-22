@@ -3,12 +3,12 @@ import logoBgWhy from '../../assets/images/bg_why_2.jpg';
 const Contact = () => {
   return (
     <>
-      <div className='grid lg:grid-cols-2 items-center z-[50]'>
+      <div className='grid lg:grid-cols-2 items-center'>
         <div 
-         className="hero bg-base-200 text-[#1D2E5C]  backdrop-blur-[5px] bg-opacity-[.1] shadow-lg">
+         className=" bg-white/20 text-[#1D2E5C] z-10">
           <div className="hero-content grid" data-aos="fade-up">
             <div className="text-center lg:text-left">
-                <h1 className="text-5xl font-bold">Contact Us</h1>
+                <h1 className="text-2xl xl:text-5xl font-bold">Contact Us</h1>
                 <p className="py-6">
                     Please kindly key in the below information for us to best assist you. 
                 </p>
@@ -66,7 +66,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-
     </>
   )
 }

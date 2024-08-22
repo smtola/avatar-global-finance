@@ -22,7 +22,7 @@ const OurService = () => {
               </h1>
               <br/>
               <p className='text-center text-[20px] font-medium font-["tenorsans"]'>
-              We offer a complete range of comprehensive services to our clients.
+                Our Accounting Firm provides full range of tax, accounting & auditing services which the clients may need from their entry into Cambodia until their exit. We assist both local and international clients in the following practice areas and sectors:
               </p>
             </div>
             <main className='pb-0 md:pb-[10vh]'>
@@ -30,75 +30,90 @@ const OurService = () => {
                 <div className='grid grid-cols-1 md:grid-cols-4 justify-center gap-[1vw]'>
                   <div className='p-3 2xl:p-5 border-b-2 border-[#0488FF] hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] transition-all duration-300'>
                     <img src={iconSv_1} className='w-[6vh] md:w-[3vh] lg:w-[7vh] mx-auto mb-3' />
-                    <h1 className='font-medium text-[14px] 2xl:text-[17px] text-center'>Consultation</h1>
+                    <h1 className='font-medium text-[14px] 2xl:text-[17px] text-center'>Tax Due Diligence</h1>
                   </div>
 
                   <div className='p-3 2xl:p-5 border-b-2 border-[#0488FF] hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] transition-all duration-300'>
                     <img src={iconSv_2} className='w-[6vh] md:w-[3vh] lg:w-[7vh] mx-auto mb-3' />
                     <h1 className='font-medium text-[14px] 2xl:text-[17px] text-center'>
-                      Business
-                      Registration Servic
+                     Legal & Tax Advice
                     </h1>
-                    <p className='text-[11px] lg:text-[15px] text-center mt-3 px-0 2xl:px-5'>
-                      Small Taxpayer
-                      Medium Taxpayer
-                      Large Taxpayer
-                    </p>
                   </div>
 
                   <div className='p-3 2xl:p-5 border-b-2 border-[#0488FF] hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] transition-all duration-300'>
                     <img src={iconSv_3} className='w-[6vh] md:w-[3vh] lg:w-[7vh] mx-auto mb-3' />
                     <h1 className='font-medium text-[14px] 2xl:text-[17px] text-center'>
-                      Accounting and
-                      Financing Service
+                    	Accounting Review 
                     </h1>
-                    <p className='text-[11px] lg:text-[15px] text-center mt-3'>
-                    Monthly Bookkeeping 
-                    Financial Statement Preparation 
-                    </p>
                   </div>
 
                   <div className='p-3 2xl:p-5 border-b-2 border-[#0488FF] hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] transition-all duration-300'>
                     <img src={iconSv_4} className='w-[6vh] md:w-[3vh] lg:w-[7vh] mx-auto mb-3' />
                     <h1 className='font-medium text-[14px] 2xl:text-[17px] text-center'>
-                      Tax Declaration
-                      Service
+                    	Key Account & Bookkeeping Service
                     </h1>
-                    <p className='text-[11px] lg:text-[15px] text-center mt-3'>
-                    Monthly Tax Declaration 
-                    Yearly Tax Declaration
-                    </p>
                   </div>
 
-                  <div className='p-3 2xl:p-5 hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] md:hover:translate-y-[12%] transition-all duration-300'>
+                  <div className='p-3 2xl:p-5 border-[#0488FF] border-b-2 hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] md:hover:translate-y-[12%] transition-all duration-300'>
                     <img src={iconSv_5} className='w-[6vh] md:w-[3vh] lg:w-[7vh] mx-auto mb-3' />
                     <h1 className='font-medium text-[12px] 2xl:text-[17px] text-center pb-10'>
-                      Tax/Audit
-                      Resolution Service
+                    	ACAR & Annual Financial Report Service 
                     </h1>
                   </div>
 
-                  <div className='p-3 2xl:p-5 hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] md:hover:translate-y-[12%] transition-all duration-300'>
+                  <div className='p-3 2xl:p-5 border-[#0488FF] border-b-2 hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] md:hover:translate-y-[12%] transition-all duration-300'>
                     <img src={iconSv_6} className='w-[6vh] md:w-[3vh] lg:w-[7vh] mx-auto mb-3' />
                     <h1 className='font-medium text-[14px] 2xl:text-[17px] text-center pb-10'>
-                    Tax Exemption
-                    Request Service
+                    	Monthly Tax Filing
                     </h1>
                   </div>
 
-                  <div className='p-3 2xl:p-5 hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] md:hover:translate-y-[12%] transition-all duration-300'>
+                  <div className='p-3 2xl:p-5 border-[#0488FF] border-b-2 hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] md:hover:translate-y-[12%] transition-all duration-300'>
                     <img src={iconSv_7} className='w-[6vh] md:w-[3vh] lg:w-[7vh] mx-auto mb-3' />
                     <h1 className='font-medium text-[14px] 2xl:text-[17px] text-center pb-10'>
-                    Company’s Update
-                    Service
+                    	Annual Tax Return & Annual Tax Compliance
                     </h1>
                   </div>
 
-                  <div className='p-3 2xl:p-5 hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] md:hover:translate-y-[12%] transition-all duration-300'>
+                  <div className='p-3 2xl:p-5 border-[#0488FF] border-b-2 hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] md:hover:translate-y-[12%] transition-all duration-300'>
                     <img src={iconSv_8} className='w-[6vh] md:w-[3vh] lg:w-[7vh] mx-auto mb-3' />
                     <h1 className='font-medium text-[14px] 2xl:text-[17px] text-center pb-10'>
-                    Company’s Closure
-                    Service
+                    	NSSF and Payroll Service
+                    </h1>
+                  </div>
+
+                  <div className='p-3 2xl:p-5 border-[#0488FF] border-b-2 hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] md:hover:translate-y-[12%] transition-all duration-300'>
+                    <img src={iconSv_8} className='w-[6vh] md:w-[3vh] lg:w-[7vh] mx-auto mb-3' />
+                    <h1 className='font-medium text-[14px] 2xl:text-[17px] text-center pb-10'>
+                    		Statutory Audit (Limited Audit or Comprehensive Audit)
+                    </h1>
+                  </div>
+
+                  <div className='p-3 2xl:p-5 border-[#0488FF] border-b-2 hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] md:hover:translate-y-[12%] transition-all duration-300'>
+                    <img src={iconSv_8} className='w-[6vh] md:w-[3vh] lg:w-[7vh] mx-auto mb-3' />
+                    <h1 className='font-medium text-[14px] 2xl:text-[17px] text-center pb-10'>
+                    		Transfer Pricing Application 
+                    </h1>
+                  </div>
+
+                  <div className='p-3 2xl:p-5 border-[#0488FF] border-b-2 hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] md:hover:translate-y-[12%] transition-all duration-300'>
+                    <img src={iconSv_8} className='w-[6vh] md:w-[3vh] lg:w-[7vh] mx-auto mb-3' />
+                    <h1 className='font-medium text-[14px] 2xl:text-[17px] text-center pb-10'>
+                    		Double Tax Application
+                    </h1>
+                  </div>
+
+                  <div className='p-3 2xl:p-5 border-[#0488FF] border-b-2 hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] md:hover:translate-y-[12%] transition-all duration-300'>
+                    <img src={iconSv_8} className='w-[6vh] md:w-[3vh] lg:w-[7vh] mx-auto mb-3' />
+                    <h1 className='font-medium text-[14px] 2xl:text-[17px] text-center pb-10'>
+                    	QIP Tax Exemption Service           
+                    </h1>
+                  </div>
+
+                  <div className='p-3 2xl:p-5 border-[#0488FF] border-b-2 hover:bg-[#E7EFFE] hover:backdrop-blue-[5px] hover:bg-opacity-[.80] hover:shadow-lg  hover:text-[#182760] hover:scale-[1.2] hover:translate-y-[-12%] md:hover:translate-y-[12%] transition-all duration-300'>
+                    <img src={iconSv_8} className='w-[6vh] md:w-[3vh] lg:w-[7vh] mx-auto mb-3' />
+                    <h1 className='font-medium text-[14px] 2xl:text-[17px] text-center pb-10'>
+                    	Tax Litigation            
                     </h1>
                   </div>
                 </div>

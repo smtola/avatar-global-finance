@@ -14,38 +14,38 @@ const  handleClickMenu =()=>{
   }
   return (
     <>
-      <div className='z-[10] '>
+      <div className='z-[10]'>
         <img src={imgBanner} className='contrast-[.8] brightness-[.9]' />
       </div>
-      <div className='w-full max-w-screen-md 2xl:max-w-screen-lg absolute top-0 translate-x-[-50%] left-[50%]'>
+      <div className='w-full max-w-screen-md lg:max-w-screen-lg 2xl:max-w-screen-xl absolute top-0 translate-x-[-50%] left-[50%] lg:px-3 xl:px-0 '>
         <header className='flex justify-between z-[50] py-2 px-2'>
           <div>
-            <img src={logo} alt="logo" className='w-[30vh]'/>
+            <img src={logo} alt="logo" className='w-[20vh] md:w-[30vh] lg:w-[16vh] xl:w-[25vh] 2xl:w-[40vh]'/>
           </div>
-          <div className='lg:flex justify-center items-center gap-4 hidden'>
+          <div className='lg:flex justify-center  items-center gap-4 hidden'>
             <div className='grid'>
-              <div className='flex gap-2 '>
+              <div className='flex gap-2 items-center'>
                 <span>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock-hour-3" width="24" height="24" viewBox="0 0 24 24" stroke-width="1" stroke="#1D2E5C" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-clock-hour-3 w-[22px] h-[22px] xl:w-[24px] xl:h-[24px]" viewBox="0 0 24 24" stroke-width="1" stroke="#1D2E5C" fill="none" stroke-linecap="round" stroke-linejoin="round">
                       <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                       <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
                       <path d="M12 12h3.5" />
                       <path d="M12 7v5" />
                     </svg>
                 </span>
-                <b className='flex gap-1 font-["Inter"] text-[12px] 2xl:text-[16px] text-[#1D2E5C]'><p>Monday-Friday</p> <p class="text-gray-300">8am-5pm</p></b>
+                <b className='flex gap-1 font-["Inter"] text-[12px] lg:text-[18px] 2xl:text-[20px] text-[#1D2E5C]'><p>Monday-Friday</p> <p class="text-gray-200">8am-5pm</p></b>
               </div>    
             </div>
             <div className='grid'>
-              <div className='flex justify-center gap-2'>
+              <div className='flex justify-center items-center gap-2'>
                 <span>
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="24" height="24" viewBox="0 0 24 24" stroke-width="1" stroke="#1D2E5C" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-clock-hour-3 w-[22px] h-[22px] xl:w-[24px] xl:h-[24px]" viewBox="0 0 24 24" stroke-width="1" stroke="#1D2E5C" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                     <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
                     <path d="M3 7l9 6l9 -6" />
                   </svg>
                 </span>
-                <b className='font-["inter"] text-[12px] 2xl:text-[16px] text-[#1D2E5C]'>huy@avatar-gfaf.com.kh</b>
+                <b className='font-["inter"] text-[12px] lg:text-[18px] 2xl:text-[20px] text-[#1D2E5C]'>huy@avatar-gfaf.com.kh</b>
               </div>
               {/* <div className='flex gap-2 '>
                 <span>
@@ -61,14 +61,14 @@ const  handleClickMenu =()=>{
               </div> */}
             </div>
             <div className='grid'>
-              <div className='flex gap-2 '>
+              <div className='flex gap-2 items-center '>
                 <span>
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="24" height="24" viewBox="0 0 24 24" stroke-width="1" stroke="#1D2E5C" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-clock-hour-3 w-[22px] h-[22px] xl:w-[24px] xl:h-[24px]" viewBox="0 0 24 24" stroke-width="1" stroke="#1D2E5C" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                     <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
                   </svg>
                 </span>
-                <b className='font-["Inter"] text-[12px] 2xl:text-[16px] text-[#1D2E5C]'>+855 (0) 12 772 771</b>
+                <b className='font-["Inter"] text-[12px] lg:text-[18px] 2xl:text-[20px] text-[#1D2E5C]'>+855 (0) 12 772 771</b>
               </div>
             </div>
           </div>
@@ -115,7 +115,7 @@ const  handleClickMenu =()=>{
                     <NavLink to="/about-us">About us</NavLink>
                   </li>
                   <li className='relative hover:text-[#1f3676] nav-link'>
-                    <NavLink to="/our-service">Our Service</NavLink>
+                    <NavLink to="/our-service">Our Services</NavLink>
                   </li>
                   <li className='relative hover:text-[#1f3676] nav-link'>
                     <NavLink to="/career">Career</NavLink>
@@ -131,10 +131,10 @@ const  handleClickMenu =()=>{
           </nav>
         </div>
 
-        <div className='my-0 lg:my-10'>
+        <div className='my-0 xl:my-10'>
           <div className="text-center uppercase text-[#1D2E5C] font-['tenorsans']" data-aos="fade-right">
-            <h1 className='text-[30px] lg:text-[50px] xl:text-[70px]'>Welcome</h1>
-            <h1 className='text-[30px]'>Avartar Global Finance & Accounting Firm</h1>
+            <h1 className='text-[16px] md:pt-3 lg:pt-0 md:text-[30px] lg:text-[50px] 2xl:text-[60px]'>Welcome</h1>
+            <h1 className='text-[13px] md:text-[23px] xl:text-[20px] 2xl:text-[30px]'>Avartar Global Finance & Accounting Firm</h1>
           </div>
         </div>
       </div>
@@ -149,7 +149,7 @@ const  handleClickMenu =()=>{
             <NavLink to="/about-us">About us</NavLink>
           </li>
           <li>
-            <NavLink to="/our-service">Our Service</NavLink>
+            <NavLink to="/our-service">Our Services</NavLink>
           </li>
           <li>
             <NavLink to="/career">Career</NavLink>
