@@ -82,11 +82,8 @@ const Home = () => {
         <div className='hidden lg:block'>
           <div className='bg-gradient-to-br from-[#002561] to-[#1D2E5C] backdrop-blur-[5px] opacity-[.85] w-full md:max-w-[28rem] lg:max-w-[36rem] xl:max-w-[45rem] 2xl:max-w-[70rem] absolute top-[60%] translate-x-[-50%] translate-y-[-50%] lg:left-[72%] 2xl:left-[68.9%]'>
             <div className='p-[35px] xl:p-[60px] 2xl:py-[10rem] text-[#ffffff] font-["tenorsans"] z-[10]'>
-              <h1 className="text-[30px] 2xl:text-[35px]">Founder</h1>  
-              <p className='text-[16px] 2xl:text-[20px]'>Our Firm was formed by H.E. SENG BUN HUY and his role as the President with the specialist in commercial practice, notary public profession, insolvency administrator and governmental mediator of the Ministry of Justice.      
-
-His Excellency held a L.L.B (Royal University of Law and Economics â€“ Faculty of Law in Cambodia) and a L.L.M (Yokohama National University â€“ Faculty of International Business Law in Japan). He was member of the Bar of the Kingdom of Cambodia. He was appointed as the member of Legal and Justice Council of the Ministry of Justice. He experienced in commercial contract law, Corporate Commercial, Mergers & Acquisition and Restructuring & Insolvency and a well-known law professor at various universities in the Kingdom. He has extensive experiences in legal advises in the field of Real Estate, Corporate & Tax, Trust Law and Mediation Dispute Resolution. He speaks Khmer, English, and Chinese.
-
+              <h1 className="text-[30px] 2xl:text-[35px]">Message From President</h1>  
+              <p className='text-[16px] 2xl:text-[20px]'> Missing Message
               </p>
             </div>
           </div>
@@ -94,7 +91,7 @@ His Excellency held a L.L.B (Royal University of Law and Economics â€“ Faculty o
 
         <div className='lg:hidden block bg-gradient-to-br from-[#002561] to-[#1D2E5C] backdrop-blur-[5px] opacity-[.85] w-full absolute top-44 md:top-[54%] scale-[.5] translate-x-[-100%] left-0 lg:left-[71.9%] msg transition-all duration-500'>
           <div className='p-[35px] xl:p-[60px] text-[#ffffff] font-["tenorsans"] z-[10]'>
-            <h1 className="text-[20px] lg:text-[30px] xl:text-[40px] 2xl:text-[64px]">Founder</h1>  
+            <h1 className="text-[20px] lg:text-[30px] xl:text-[40px] 2xl:text-[64px]">Message From President</h1>  
             <p className='text-[11px] lg:text-[16px] 2xl:text-[26px]'>Our Firm was formed by H.E. SENG BUN HUY and his role as the President with the specialist in commercial practice, notary public profession, insolvency administrator and governmental mediator of the Ministry of Justice.      
 
 His Excellency held a L.L.B (Royal University of Law and Economics â€“ Faculty of Law in Cambodia) and a L.L.M (Yokohama National University â€“ Faculty of International Business Law in Japan). He was member of the Bar of the Kingdom of Cambodia. He was appointed as the member of Legal and Justice Council of the Ministry of Justice. He experienced in commercial contract law, Corporate Commercial, Mergers & Acquisition and Restructuring & Insolvency and a well-known law professor at various universities in the Kingdom. He has extensive experiences in legal advises in the field of Real Estate, Corporate & Tax, Trust Law and Mediation Dispute Resolution. He speaks Khmer, English, and Chinese.
@@ -171,9 +168,9 @@ He held a BA in Accounting and Finance (Royal University of Law and Economics â€
               <img src={imgEmp_8} className="mix-blend-darken pt-2" />
             </div>
             <h1 className="text-[#1D2E5C] text-[16px] md:text-[17px] mt-1">
-               Mrs. VANN THEARA
+              Mr. Chourn Chanthorn
             </h1>
-            <p className="text-[#828386]">Executive Staff</p>
+            <p className="text-[#828386]">Supervisor Accounting & Tax</p>
             <div className="border-b-2 border-[#1D2E5C]"></div>
           </div>
 
@@ -185,9 +182,9 @@ He held a BA in Accounting and Finance (Royal University of Law and Economics â€
               <img src={imgEmp_8} className="mix-blend-darken pt-2" />
             </div>
             <h1 className="text-[#1D2E5C] text-[16px] md:text-[17px] mt-1">
-              Ms. TANG MOUYKHENG
+              Mr. SENG VICHET
             </h1>
-            <p className="text-[#828386]">Executive Staff</p>
+            <p className="text-[#828386]">Partner</p>
             <div className="border-b-2 border-[#1D2E5C]"></div>
           </div>
 
@@ -199,9 +196,9 @@ He held a BA in Accounting and Finance (Royal University of Law and Economics â€
               <img src={imgEmp_8} className="mix-blend-darken pt-2" />
             </div>
             <h1 className="text-[#1D2E5C] text-[16px] md:text-[17px]  mt-1">
-              Mrs. PHAT THEARY
+              Vutha Manin
             </h1>
-            <p className="text-[#828386] ">Executive Staff</p>
+            <p className="text-[#828386] ">Senior Accountant</p>
             <div className="border-b-2 border-[#1D2E5C]"></div>
           </div>
 
@@ -213,9 +210,9 @@ He held a BA in Accounting and Finance (Royal University of Law and Economics â€
               <img src={imgEmp_8} className="mix-blend-darken pt-2" />
             </div>
             <h1 className="text-[#1D2E5C] text-[16px] md:text-[17px]  mt-1">
-              Ms. PANN PANIT
+              Mrs. Vann Theara
             </h1>
-            <p className="text-[#828386] ">Executive Staff</p>
+            <p className="text-[#828386] ">Accountant</p>
             <div className="border-b-2 border-[#1D2E5C]"></div>
           </div>
 
@@ -227,9 +224,9 @@ He held a BA in Accounting and Finance (Royal University of Law and Economics â€
               <img src={imgEmp_8} className="mix-blend-darken pt-2" />
             </div>
             <h1 className="text-[#1D2E5C] text-[16px] md:text-[17px]  mt-1">
-            	Mrs. AN SREYNICH
+              Ms. Tang Mouykheang
             </h1>
-            <p className="text-[#828386] ">Executive Staff</p>
+            <p className="text-[#828386] ">Accountant</p>
             <div className="border-b-2 border-[#1D2E5C]"></div>
           </div>
 
@@ -241,9 +238,65 @@ He held a BA in Accounting and Finance (Royal University of Law and Economics â€
               <img src={imgEmp_8} className="mix-blend-darken pt-2" />
             </div>
             <h1 className="text-[#1D2E5C] text-[16px] md:text-[17px]  mt-1">
-              Ms. CHENG DALY
+              Mrs. Phat Thoery
             </h1>
-            <p className="text-[#828386] ">Executive Staff</p>
+            <p className="text-[#828386] ">Accountant</p>
+            <div className="border-b-2 border-[#1D2E5C]"></div>
+          </div>
+
+          <div
+            data-aos="zoom-in"
+            className="w-full max-w-[174px] md:max-w-[248px] mx-auto text-start"
+          >
+            <div className="w-[100px] h-[100px] mx-auto md:w-[184px] md:h-[184px] overflow-hidden bg-[#ECF1F5] p-2 rounded-full">
+              <img src={imgEmp_8} className="mix-blend-darken pt-2" />
+            </div>
+            <h1 className="text-[#1D2E5C] text-[16px] md:text-[17px]  mt-1">
+              Mrs. An Sreynich
+            </h1>
+            <p className="text-[#828386] ">Accountant</p>
+            <div className="border-b-2 border-[#1D2E5C]"></div>
+          </div>
+
+          <div
+            data-aos="zoom-in"
+            className="w-full max-w-[174px] md:max-w-[248px] mx-auto text-start"
+          >
+            <div className="w-[100px] h-[100px] mx-auto md:w-[184px] md:h-[184px] overflow-hidden bg-[#ECF1F5] p-2 rounded-full">
+              <img src={imgEmp_8} className="mix-blend-darken pt-2" />
+            </div>
+            <h1 className="text-[#1D2E5C] text-[16px] md:text-[17px]  mt-1">
+            Ms. Cheng Daly 
+            </h1>
+            <p className="text-[#828386] ">Accountant</p>
+            <div className="border-b-2 border-[#1D2E5C]"></div>
+          </div>
+
+          <div
+            data-aos="zoom-in"
+            className="w-full max-w-[174px] md:max-w-[248px] mx-auto text-start"
+          >
+            <div className="w-[100px] h-[100px] mx-auto md:w-[184px] md:h-[184px] overflow-hidden bg-[#ECF1F5] p-2 rounded-full">
+              <img src={imgEmp_8} className="mix-blend-darken pt-2" />
+            </div>
+            <h1 className="text-[#1D2E5C] text-[16px] md:text-[17px]  mt-1">
+              Ms. Pann Panit
+            </h1>
+            <p className="text-[#828386] ">Assistant Account</p>
+            <div className="border-b-2 border-[#1D2E5C]"></div>
+          </div>
+
+          <div
+            data-aos="zoom-in"
+            className="w-full max-w-[174px] md:max-w-[248px] mx-auto text-start"
+          >
+            <div className="w-[100px] h-[100px] mx-auto md:w-[184px] md:h-[184px] overflow-hidden bg-[#ECF1F5] p-2 rounded-full">
+              <img src={imgEmp_8} className="mix-blend-darken pt-2" />
+            </div>
+            <h1 className="text-[#1D2E5C] text-[16px] md:text-[17px]  mt-1">
+               RORN RYSA 
+            </h1>
+            <p className="text-[#828386] ">Admin</p>
             <div className="border-b-2 border-[#1D2E5C]"></div>
           </div>
         </div>
