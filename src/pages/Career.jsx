@@ -22,7 +22,7 @@ const Career = () => {
           Accounting Executive
         </h1>
         <h1 className='text-center text-[#1D2E5C] font-medium text-[20px] font-["tenorsans"]'>
-          Tax Manager
+          Accounting Manager
         </h1>
         <h1 className='text-center text-[#1D2E5C] font-medium text-[20px] font-["tenorsans"]'>
           Tax Executive
