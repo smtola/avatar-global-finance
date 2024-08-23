@@ -21,8 +21,6 @@ import 'swiper/css/pagination';
 
 import './Career.css';
 
-// import required modules
-import { EffectCoverflow, Pagination } from 'swiper/modules';
 const Career = () => {
   return (
     <>
@@ -36,13 +34,13 @@ const Career = () => {
       </div>
       <div data-aos="fade-right" className='py-5 md:py-10'>
         <h1 className='text-center text-[#1D2E5C] font-medium text-[30px] font-["tenorsans"]'>
-          Open Position
-        </h1>
-        <h1 className='text-center text-[#1D2E5C] font-medium text-[20px] font-["tenorsans"]'>
-          Accounting Executive
+          Open Positions
         </h1>
         <h1 className='text-center text-[#1D2E5C] font-medium text-[20px] font-["tenorsans"]'>
           Accounting Manager
+        </h1>
+        <h1 className='text-center text-[#1D2E5C] font-medium text-[20px] font-["tenorsans"]'>
+          Accounting Executive
         </h1>
         <h1 className='text-center text-[#1D2E5C] font-medium text-[20px] font-["tenorsans"]'>
           Tax Executive
@@ -85,21 +83,9 @@ const Career = () => {
         </div>
       </main>
 
-      <Swiper
-        effect={'coverflow'}
-        grabCursor={true}
-        centeredSlides={true}
-        slidesPerView={'auto'}
-        coverflowEffect={{
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true,
-        }}
-        pagination={true}
-        modules={[EffectCoverflow, Pagination]}
-        className="mySwiper"
+    </div>
+
+      <Swiper watchSlidesProgress={true} loop={true} grabCursor={true} slidesPerView={3} className="mySwiper"
       >
         <SwiperSlide>
           <img src={swiper_1} />
@@ -129,7 +115,6 @@ const Career = () => {
           <img src={swiper_9} />
         </SwiperSlide>
       </Swiper>
-    </div>
     <Contact />
     <Footers />
 </>
