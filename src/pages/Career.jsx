@@ -38,7 +38,7 @@ const Career = () => {
                 Career Information
               </h1>
               <p className='text-[16px]'>
-                We are open to accept any talents, please feel free to apply :<br/> 
+                We are open to accept any talents, please feel free to apply<br/> 
                 Enter your email and upload your CVs here
               </p>
             </div>

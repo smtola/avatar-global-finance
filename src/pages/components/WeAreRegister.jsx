@@ -20,6 +20,10 @@ const WeAreRegister = () => {
           Certification from Kampuchea Institute of Certified Public Accountants and Auditors (KICPAA)
         </p>
       </div>
+
+      <div className='overflow-hidden'>
+          <img data-aos="fade-right" src={imgRgt_5} className='w-full' />
+        </div>
       <div className='grid grid-cols-2 justify-center gap-[2vw] my-10'>
         <div className='overflow-hidden'>
           <img data-aos="fade-right" src={imgRgt_1} className='w-full' />
@@ -33,9 +37,7 @@ const WeAreRegister = () => {
         <div className='overflow-hidden'>
           <img data-aos="fade-left" src={imgRgt_4} className='w-full' />
         </div>
-        <div className='overflow-hidden'>
-          <img data-aos="fade-right" src={imgRgt_5} className='w-full' />
-        </div>
+
       </div>
     </div>
     </>
