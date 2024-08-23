@@ -3,6 +3,26 @@ import Navbars from './components/Navbars';
 import Footers from './components/Footers';
 import Contact from './components/Contact';
 import Scroll from './components/Scroll';
+import swiper_1 from '../assets/images/swapper_1.jpg';
+import swiper_2 from '../assets/images/swapper_2.jpg';
+import swiper_3 from '../assets/images/swapper_3.jpg';
+import swiper_4 from '../assets/images/swapper_4.jpg';
+import swiper_5 from '../assets/images/swapper_5.jpg';
+import swiper_6 from '../assets/images/swapper_6.jpg';
+import swiper_7 from '../assets/images/swapper_7.jpg';
+import swiper_8 from '../assets/images/swapper_8.jpg';
+import swiper_9 from '../assets/images/swapper_9.jpg';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+
+import './Career.css';
+
+// import required modules
+import { EffectCoverflow, Pagination } from 'swiper/modules';
 const Career = () => {
   return (
     <>
@@ -64,6 +84,51 @@ const Career = () => {
             </div>
         </div>
       </main>
+
+      <Swiper
+        effect={'coverflow'}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={'auto'}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        }}
+        pagination={true}
+        modules={[EffectCoverflow, Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          <img src={swiper_1} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={swiper_2} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={swiper_3} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={swiper_4} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={swiper_5} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={swiper_6} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={swiper_7} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={swiper_8} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={swiper_9} />
+        </SwiperSlide>
+      </Swiper>
     </div>
     <Contact />
     <Footers />

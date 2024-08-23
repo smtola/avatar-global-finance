@@ -476,7 +476,7 @@ const Home = () => {
       </div>
 
       <div className="bg-why-us">
-        <h1 className='text-[30px] lg:text-[50px] font-["tenorsans"] font-medium text-center py-5 text-[#ffffff]'>
+        <h1 className='text-[30px] lg:text-[50px] font-["tenorsans"] font-medium text-center py-5 text-[#002561]'>
           Why Us?
         </h1>
 

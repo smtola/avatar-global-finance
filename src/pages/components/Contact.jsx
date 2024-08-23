@@ -58,11 +58,11 @@ const Contact = () => {
           backgroundPosition: 'center',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
-          
+          backgroundAttachment:'fixed'
         }}>
         <div className="hero-content py-0 text-neutral-content text-center">
-          <div className="max-w-lg xl:max-w-xl md:py-10">
-            <h1 data-aos="flip-up" className="text-xl md:text-3xl xl:text-5xl font-bold text-[#ffffff] py-5">Let us put Our Knowledge and Experience to Work For You</h1>
+          <div className="max-w-lg xl:max-w-2xl md:py-10 bg-white/30 backdrop-blur-[2px] bg-opacity-100 m-10 rounded-sm">
+            <h1 data-aos="flip-up" className="text-xl md:text-3xl xl:text-4xl font-bold text-[#ffffff] py-5">Let us put Our Knowledge and Experience to Work For You</h1>
           </div>
         </div>
       </div>
