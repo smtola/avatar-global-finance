@@ -84,7 +84,7 @@ const Home = () => {
           <img
             src={imgCeo}
             alt="ceo"
-            className="overflow-hidden absolute w-[24.5vh] md:w-[30.3vh] lg:w-[26vh] xl:w-[50.4vh] top-[54%] translate-y-[-50%] translate-x-[-50%] left-[30%] md:left-[30%] lg:left-[30%] 2xl:left-[18%]"
+            className="overflow-hidden absolute w-[24.5vh] md:w-[30.3vh] lg:w-[26vh] xl:w-[60.5vh] top-[54%] translate-y-[-50%] translate-x-[-50%] left-[30%] md:left-[30%] lg:left-[30%] 2xl:left-[18%]"
           />
         </div>
 
@@ -300,7 +300,7 @@ const Home = () => {
           <h1 className="text-[#1D2E5C] text-[20px] md:text-[34px]">
             III. Accounting Staffs
           </h1>
-          <div className="w-full max-w-screen-md md:px-3 xl:max-w-screen-lg 2xl:max-w-screen-xl mx-auto grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 justify-center items-center gap-[4vw] pt-7">
+          <div className="w-full max-w-screen-md md:px-3 xl:max-w-screen-lg 2xl:max-w-screen-xl mx-auto grid grid-cols-2 md:grid-cols-3  justify-center items-center gap-[4vw] pt-7">
             <div
               data-aos="zoom-in"
               className="w-full max-w-[174px] p-4 md:max-w-[248px] mx-auto text-start"
@@ -401,7 +401,7 @@ const Home = () => {
           <h1 className="text-[#1D2E5C] text-[20px] md:text-[34px] my-10">
             IV. Admin Staffs
           </h1>
-          <div className="w-full max-w-screen-md md:px-3 xl:max-w-screen-lg 2xl:max-w-screen-xl mx-auto grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 justify-center items-center gap-[4vw] pt-7">
+          <div className="w-full max-w-screen-md md:px-3 xl:max-w-screen-lg 2xl:max-w-screen-xl mx-auto grid grid-cols-2 md:grid-cols-3 justify-center items-center gap-[4vw] pt-7">
             <div
               data-aos="zoom-in"
               className="w-full max-w-[174px] md:max-w-[248px] mx-auto text-start"

@@ -133,8 +133,8 @@ const  handleClickMenu =()=>{
 
         <div className='my-0 xl:my-10'>
           <div className="text-center uppercase text-[#1D2E5C] font-['tenorsans']" data-aos="fade-right">
-            <h1 className='text-[16px] md:pt-3 lg:pt-0 md:text-[30px] lg:text-[50px] 2xl:text-[60px]'>Welcome</h1>
-            <h1 className='text-[13px] md:text-[23px] xl:text-[20px] 2xl:text-[30px]'>Avartar Global Finance & Accounting Firm</h1>
+            <h1 className='text-[16px] md:pt-3 lg:pt-0 md:text-[30px] lg:text-[50px] 2xl:text-[120px]'>Welcome</h1>
+            <h1 className='text-[13px] md:text-[23px] xl:text-[20px] 2xl:text-[40px]'>Avartar Global Finance & Accounting Firm</h1>
           </div>
         </div>
       </div>
