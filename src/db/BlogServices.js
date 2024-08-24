@@ -10,5 +10,17 @@ export function BlogService(){
             content: 'What kind of questions will I be asked during external auditing?',
             image: imgCard_1,
         },
+        {
+            id: 2,
+            title: 'Lorem Ipsum',
+            content: 'is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
+            image: imgCard_2,
+        },
+        {
+            id: 3,
+            title: 'Lorem Ipsum',
+            content: 'is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
+            image: imgCard_3,
+        },
     ]
 }

@@ -14,10 +14,10 @@ const Blog = () => {
     <Scroll />
       <Navbars />
       <div className='bg-[#ffffff] w-full max-w-screen-lg xl:max-w-screen-xl mx-auto my-10'>
-        <div className='grid grid-cols-1 justify-center items-center gap-[2vw] lg:gap-[1vw] px-5'>
+        <div className='grid grid-cols-12 justify-center items-center gap-[2vw] lg:gap-[1vw] px-5'>
           {items.map((blogs) => (
             <Link to={"/blog/blog-details"} data-aos="fade-up" key={blogs.id}
-              className='relative grid w-[40vh] mx-auto min-h-[30rem] items-end overflow-hidden rounded-md group'>
+              className='relative col-span-12 md:col-span-6 lg:col-span-4 grid w-full mx-auto min-h-[30rem] items-end overflow-hidden rounded-md group'>
               <img src={blogs.image} className='absolute w-full h-full object-cover object-center inset-0 group-hover:scale-[1.2] duration-500' />
               <div className='absolute bg-black/50 inset-0'></div>
               <div className='relative flex flex-col justify-end p-5'>

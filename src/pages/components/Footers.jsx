@@ -38,7 +38,7 @@ const Footers = () => {
                   </p>
                 </li>
               </ul>
-              <ul className='font-["tenorsans"] font-medium text-white'>
+              {/* <ul className='font-["tenorsans"] font-medium text-white'>
                 <li><h1 className='text-[20px] text-center md:text-start xl:text-[30px] font-["tenorsans"] font-medium text-white my-4'>Follow Us</h1></li>
                 <li data-aos="zoom-in" className='flex gap-2 md:justify-start'>
                   <a className='hover:scale-[1.2] transition-all duration-500'>
@@ -64,7 +64,7 @@ const Footers = () => {
                     </svg>
                   </a>
                 </li>
-              </ul>
+              </ul> */}
             </div>
 
             <div className='col-span-12 lg:col-span-8'>
