@@ -2,14 +2,14 @@ import React from 'react';
 import {Link } from 'react-router-dom';
 import Footers from './Footers';
 import Contact from './Contact';
-import imgBlogDetail_1 from '../../assets/images/blog_1.jpg';
+import Scroll from '../components/Scroll';
 import { BlogService} from '../../db/BlogServices';
 const BlogDetails = () => {
   const items = BlogService();
   // Use the id parameter to fetch and display blog details
   return (
       <>
-        
+        <Scroll/>
         <div className='w-full max-w-screen-lg xl:max-w-screen-xl max-lg:px-5 mx-auto overflow-y-scroll my-10'>
           <div className='m-10 group flex items-center justify-between'>
             <div>
@@ -28,7 +28,7 @@ const BlogDetails = () => {
               <p>Back</p>
             </Link>
           </div>
-            <div className='grid grid-cols-12 justify-center items-center gap-[3vw]'>
+            <div className='grid grid-cols-12 justify-center items-center gap-[3vw]' data-aos="fade-up">
               {items.map((items,i)=>(
                 <div  key={i}
                   className='col-span-12 lg:col-span-6'>
