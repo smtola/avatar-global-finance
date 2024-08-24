@@ -14,7 +14,7 @@ const WeAreRegister = () => {
           and we fully obtained
         </h1>
         <br/>
-        <p className='text-start text-[16px] md:text-[20px] font-medium font-["tenorsans"] px-[8vw]'>
+        <p className='text-start text-[16px] md:text-[20px] font-medium font-["tenorsans"]'>
           <ul>
             <li className='list-disc'>
                 Tax Agent License
