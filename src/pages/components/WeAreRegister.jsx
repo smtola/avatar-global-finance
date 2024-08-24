@@ -17,6 +17,12 @@ const WeAreRegister = () => {
         <p className='text-start text-[16px] md:text-[20px] font-medium font-["tenorsans"] px-5'>
           <ul>
             <li className='list-disc'>
+                Certificate of Incorporation from Ministry of Commerce
+            </li>
+            <li className='list-disc'>
+                Certificate of Tax Registration from Ministry of Economics and Finance
+            </li>
+            <li className='list-disc'>
                 Tax Agent License
             </li>
             <li className='list-disc'>
@@ -25,28 +31,22 @@ const WeAreRegister = () => {
             <li className='list-disc'>
                 Certification from Kampuchea Institute of Certified Public Accountants and Auditors (KICPAA)
             </li>
-            <li className='list-disc'>
-                Certificate of Incorporation from Ministry of Commerce
-            </li>
-            <li className='list-disc'>
-                Certificate of Tax Registration from Ministry of Economics and Finance
-            </li>
           </ul>
         </p>
       </div>
 
       <div className='overflow-hidden'>
           <img data-aos="fade-right" src={imgRgt_5} className='w-full' />
-        </div>
+      </div>
       <div className='grid grid-cols-2 justify-center gap-[2vw] my-10'>
         <div className='overflow-hidden'>
           <img data-aos="fade-right" src={imgRgt_1} className='w-full' />
         </div>
         <div className='overflow-hidden'>
-          <img data-aos="fade-left" src={imgRgt_2} className='w-full' />
+          <img data-aos="fade-right" src={imgRgt_3} className='w-full' />
         </div>
         <div className='overflow-hidden'>
-          <img data-aos="fade-right" src={imgRgt_3} className='w-full' />
+          <img data-aos="fade-left" src={imgRgt_2} className='w-full' />
         </div>
         <div className='overflow-hidden'>
           <img data-aos="fade-left" src={imgRgt_4} className='w-full' />
