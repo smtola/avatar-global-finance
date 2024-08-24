@@ -79,12 +79,6 @@ const Home = () => {
           <img
             src={imgMask}
             alt="mask"
-            className="contrast-[.9] brightness-[.7]"
-          />
-          <img
-            src={imgCeo}
-            alt="ceo"
-            className="overflow-hidden absolute w-[24.5vh] md:w-[30.3vh] lg:w-[26vh] xl:w-[60.5vh] top-[54%] translate-y-[-50%] translate-x-[-50%] left-[30%] md:left-[30%] lg:left-[30%] 2xl:left-[18%]"
           />
         </div>
 

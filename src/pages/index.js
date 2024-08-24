@@ -8,4 +8,5 @@ export { default as Vision } from './components/Vision';
 export { default as Mission } from './components/Mission';
 export { default as CoreValue } from './components/CoreValue';
 export { default as WeAreRegister } from './components/WeAreRegister';
+export { default as BlogDetails } from './components/BlogDetails';
 
