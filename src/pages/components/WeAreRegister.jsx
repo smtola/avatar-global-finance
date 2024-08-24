@@ -14,10 +14,24 @@ const WeAreRegister = () => {
           and we fully obtained
         </h1>
         <br/>
-        <p className='text-center text-[16px] md:text-[20px] font-medium font-["tenorsans"] px-[8vw]'>
-          Tax Agent License
-          Accounting Level II Practice License from Accounting and Auditing Regulator 
-          Certification from Kampuchea Institute of Certified Public Accountants and Auditors (KICPAA)
+        <p className='text-start text-[16px] md:text-[20px] font-medium font-["tenorsans"] px-[8vw]'>
+          <ul>
+            <li className='list-disc'>
+                Tax Agent License
+            </li>
+            <li className='list-disc'>
+                Accounting Level II Practice License from Accounting and Auditing Regulator 
+            </li>
+            <li className='list-disc'>
+                Certification from Kampuchea Institute of Certified Public Accountants and Auditors (KICPAA)
+            </li>
+            <li className='list-disc'>
+                Certificate of Incorporation from Ministry of Commerce
+            </li>
+            <li className='list-disc'>
+                Certificate of Tax Registration from Ministry of Economics and Finance
+            </li>
+          </ul>
         </p>
       </div>
 

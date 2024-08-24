@@ -14,7 +14,6 @@ import swiper_8 from '../assets/images/swapper_8.jpg';
 import swiper_9 from '../assets/images/swapper_9.jpg';
 import swiper_10 from '../assets/images/swapper_10.jpg';
 import swiper_11 from '../assets/images/swapper_11.jpg';
-import swiper_12 from '../assets/images/swapper_12.jpg';
 import swiper_13 from '../assets/images/swapper_13.jpg';
 import swiper_14 from '../assets/images/swapper_14.jpg';
 import swiper_15 from '../assets/images/swapper_15.jpg';
@@ -125,9 +124,6 @@ const Career = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img src={swiper_11} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={swiper_12} />
         </SwiperSlide>
         <SwiperSlide>
           <img src={swiper_13} />
