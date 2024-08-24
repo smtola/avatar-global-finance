@@ -1,6 +1,19 @@
 import React from 'react'
 import logoBgWhy from '../../assets/images/bg_why_2.jpg';
+import emailjs from '@emailjs/browser'
 const Contact = () => {
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    try{
+      emailjs.sendForm('service_uod7h27','template_hh9dheb',event.target,'zwrbkbntMIq-U7_Wn');
+
+      event.target.reset(); // Clear the form fields
+      alert('Message sent successfully!');
+    }catch(e){
+      alert("Error: " + e.message);
+    }
+    form.reset();
+  };
   return (
     <>
       <div className='grid lg:grid-cols-2 items-center'>
@@ -14,35 +27,41 @@ const Contact = () => {
                 </p>
             </div>
             <div className="card bg-base-100 w-full max-w-lg shrink-0 shadow-2xl">
-            <form className="card-body">
-                <div className="form-control">
-                <label className="label">
-                    <span className="label-text">Name: </span>
-                </label>
-                <input type="text" placeholder="Your name" className="input input-bordered" required />
-                </div>
-                <div className="form-control">
-                <label className="label">
-                    <span className="label-text">Phone Number</span>
-                </label>
-                    <input type="text" placeholder="Phone Number" className="input input-bordered" required />
-                </div>
-                <div className="form-control">
-                    <label className="label">
-                        <span className="label-text">Subject</span>
-                    </label>
-                    <input type="text" placeholder="Subject" className="input input-bordered" required />
-                </div>
-                <div className="form-control">
-                    <label className="label">
-                        <span className="label-text">Your message (optional)</span>
-                    </label>
-                    <textarea className="textarea textarea-bordered" placeholder="Additional Message"></textarea>
-                </div>
-                <div className="form-control mt-6">
-                    <button className="btn bg-[#1D2E5C] text-[#ffffff] hover:bg-[#27396b]">Submit</button>
-                </div>
-            </form>
+              <form className="card-body" onSubmit={onSubmit}>
+                  <div className="form-control">
+                  <label className="label">
+                      <span className="label-text">Name: </span>
+                  </label>
+                  <input type="text" placeholder="Your name" name='from_name' className="input input-bordered text-gray-500" autocomplete="off" required />
+                  </div>
+                  <div className="form-control">
+                      <label className="label">
+                          <span className="label-text">Phone Number</span>
+                      </label>
+                      <input type="text" placeholder="Phone Number" name='phone' className="input input-bordered text-gray-500" autocomplete="off" required />
+                  </div>
+                  <div className="form-control">
+                      <label className="label">
+                          <span className="label-text">Email</span>
+                      </label>
+                      <input type="email" placeholder="Email" name='from_email' className="input input-bordered text-gray-500" autocomplete="off" required />
+                  </div>
+                  <div className="form-control">
+                      <label className="label">
+                          <span className="label-text">Subject</span>
+                      </label>
+                      <input type="text" placeholder="Subject" name='subject' className="input input-bordered text-gray-500" autocomplete="off" required />
+                  </div>
+                  <div className="form-control">
+                      <label className="label">
+                          <span className="label-text">Your message (optional)</span>
+                      </label>
+                      <textarea className="textarea textarea-bordered text-gray-500" autocomplete="off" name='message' placeholder="Additional Message"></textarea>
+                  </div>
+                  <div className="form-control mt-6">
+                      <button type='submit' className="btn bg-[#1D2E5C] text-[#ffffff] hover:bg-[#27396b]">Submit</button>
+                  </div>
+              </form>
             </div>
           </div>
         </div>
