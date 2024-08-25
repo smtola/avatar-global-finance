@@ -1,15 +1,20 @@
-import React from 'react'
+import React from "react";
 
 const CoreValue = () => {
   return (
     <>
-    <div data-aos="fade-right" className='text-center w-full max-w-lg mx-auto text-[#1D2E5C] pb-24 pt-5'>
-      <h1 className='text-[30px]'>Mission</h1>
-      <p>
-      Our professional team strives to provide the best client care experience. We are identified as teamwork, persistence and always listen to the client’s concern with respect.
-      </p>
-    </div>
-    {/* <div  className='w-full max-w-screen-lg mx-auto text-[#1D2E5C] pb-24 pt-5'>
+      <div
+        data-aos="fade-right"
+        className="text-center w-full max-w-lg mx-auto text-[#1D2E5C] pb-24 pt-5"
+      >
+        <h1 className="text-[30px]">Core Values</h1>
+        <p>
+          Our professional team strives to provide the best client care
+          experience. We are identified as teamwork, persistence and always
+          listen to the client’s concern with respect.
+        </p>
+      </div>
+      {/* <div  className='w-full max-w-screen-lg mx-auto text-[#1D2E5C] pb-24 pt-5'>
       <div className='grid grid-cols-2 md:grid-cols-3 justify-center gap-[2vw]'>
         <div data-aos="zoom-in" className="w-full max-w-md mx-auto">
           <h1 className='font-["tenorsans"] text-[28px] md:text-[30px]'>1</h1>
@@ -55,8 +60,8 @@ const CoreValue = () => {
         </div>
       </div>
     </div> */}
-  </>
-  )
-}
+    </>
+  );
+};
 
-export default CoreValue
+export default CoreValue;
