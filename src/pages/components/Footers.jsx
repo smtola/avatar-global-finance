@@ -68,7 +68,7 @@ const Footers = () => {
             </div>
 
             <div className='col-span-12 lg:col-span-8'>
-              <h1 className='text-[20px] xl:text-[30px] font-["tenorsans"] font-medium text-white my-4'>Operational Contact</h1>
+              <h1 className='text-[20px] xl:text-[30px] font-["tenorsans"] font-medium text-white my-4'>Operation Contact</h1>
               <ul className='font-["tenorsans"] font-medium text-white'>
                 <li data-aos="zoom-in" className='flex gap-2 my-1'>
                   <a href="tel:+855 12 772 771" className='hover:scale-[1.2] transition-all duration-500'>
