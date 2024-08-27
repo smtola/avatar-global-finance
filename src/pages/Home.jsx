@@ -406,7 +406,6 @@ const Home = () => {
               <h1 className="text-[#1D2E5C] text-[12px] md:text-[17px] mt-1">
                 Ms. TEP PHEARO
               </h1>
-              <p className="text-[#828386] text-[12px] md:text-[16px]">Admin</p>
               <div className="border-b-2 border-[#1D2E5C]"></div>
             </div>
 
@@ -420,7 +419,6 @@ const Home = () => {
               <h1 className="text-[#1D2E5C] text-[12px] md:text-[17px]  mt-1">
                 Mr. MAN SOFIYAN
               </h1>
-              <p className="text-[#828386] text-[12px] md:text-[16px]">Admin</p>
               <div className="border-b-2 border-[#1D2E5C]"></div>
             </div>
 
@@ -434,7 +432,6 @@ const Home = () => {
               <h1 className="text-[#1D2E5C] text-[12px] md:text-[17px]  mt-1">
                 Ms. PHAN SINA
               </h1>
-              <p className="text-[#828386] text-[12px] md:text-[16px]">Admin</p>
               <div className="border-b-2 border-[#1D2E5C]"></div>
             </div>
 
@@ -448,7 +445,6 @@ const Home = () => {
               <h1 className="text-[#1D2E5C] text-[12px] md:text-[17px]  mt-1">
                 Ms. VUTHA MANIN
               </h1>
-              <p className="text-[#828386] text-[12px] md:text-[16px]">Admin</p>
               <div className="border-b-2 border-[#1D2E5C]"></div>
             </div>
 
@@ -462,7 +458,6 @@ const Home = () => {
               <h1 className="text-[#1D2E5C] text-[12px] md:text-[17px]  mt-1">
                 RORN RYSA
               </h1>
-              <p className="text-[#828386] text-[12px] md:text-[16px]">Admin</p>
               <div className="border-b-2 border-[#1D2E5C]"></div>
             </div>
           </div>

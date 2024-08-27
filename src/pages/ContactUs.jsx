@@ -1,40 +1,40 @@
-import React,{useState} from 'react'
+import React from 'react'
 import Navbars from './components/Navbars';
 import Footers from './components/Footers';
 import Scroll from './components/Scroll';
-import axios from 'axios';
+// import axios from 'axios';
 
 const ContactUs = () => {
 
-  const [formData, setFormData] = useState({
-    from_name: '',
-    phone: '',
-    from_email: '',
-    subject: '',
-    message: ''
-  });
+  // const [formData, setFormData] = useState({
+  //   from_name: '',
+  //   phone: '',
+  //   from_email: '',
+  //   subject: '',
+  //   message: ''
+  // });
 
-  const onSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      await axios.post('http://localhost:3001/send-email', formData);
-      alert('Email sent successfully');
-      setFormData({
-        from_name: '',
-        phone: '',
-        from_email: '',
-        subject: '',
-        message: ''
-      });
-    } catch (error) {
-      console.error('Error sending email:', error);
-      alert('Failed to send email. Please try again later.');
-    }
-  };
+  // const onSubmit = async (e) => {
+  //   e.preventDefault();
+  //   try {
+  //     await axios.post('http://localhost:3001/send-email', formData);
+  //     alert('Email sent successfully');
+  //     setFormData({
+  //       from_name: '',
+  //       phone: '',
+  //       from_email: '',
+  //       subject: '',
+  //       message: ''
+  //     });
+  //   } catch (error) {
+  //     console.error('Error sending email:', error);
+  //     alert('Failed to send email. Please try again later.');
+  //   }
+  // };
 
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
+  // const handleChange = (e) => {
+  //   setFormData({ ...formData, [e.target.name]: e.target.value });
+  // };
 
   return (
     <>
@@ -50,7 +50,7 @@ const ContactUs = () => {
                 </p>
             </div>
             <div data-aos="fade-up" className="card bg-base-100 w-full max-w-lg shrink-0 shadow-2xl">
-            <form className="card-body" onSubmit={onSubmit}>
+            <form className="card-body">
                 <div className="form-control">
                   <label className="label">
                     <span className="label-text">Name: </span>
@@ -62,8 +62,6 @@ const ContactUs = () => {
                     className="input input-bordered text-gray-500"
                     autoComplete="off"
                     required
-                    value={formData.from_name}
-                    onChange={handleChange}
                   />
                 </div>
                 <div className="form-control">
@@ -77,8 +75,6 @@ const ContactUs = () => {
                     className="input input-bordered text-gray-500"
                     autoComplete="off"
                     required
-                    value={formData.phone}
-                    onChange={handleChange}
                   />
                 </div>
                 <div className="form-control">
@@ -92,8 +88,6 @@ const ContactUs = () => {
                     className="input input-bordered text-gray-500"
                     autoComplete="off"
                     required
-                    value={formData.from_email}
-                    onChange={handleChange}
                   />
                 </div>
                 <div className="form-control">
@@ -107,8 +101,6 @@ const ContactUs = () => {
                     className="input input-bordered text-gray-500"
                     autoComplete="off"
                     required
-                    value={formData.subject}
-                    onChange={handleChange}
                   />
                 </div>
                 <div className="form-control">
@@ -120,8 +112,6 @@ const ContactUs = () => {
                     autoComplete="off"
                     name='message'
                     placeholder="Additional Message"
-                    value={formData.message}
-                    onChange={handleChange}
                   ></textarea>
                 </div>
                 <div className="form-control mt-6">

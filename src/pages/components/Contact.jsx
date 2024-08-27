@@ -4,14 +4,7 @@ import emailjs from '@emailjs/browser'
 const Contact = () => {
   const onSubmit = async (event) => {
     event.preventDefault();
-    try{
-      emailjs.sendForm('service_uod7h27','template_hh9dheb',event.target,'zwrbkbntMIq-U7_Wn');
-
-      event.target.reset(); // Clear the form fields
-      alert('Message sent successfully!');
-    }catch(e){
-      alert("Error: " + e.message);
-    }
+    alert('Form Maintenant');
     form.reset();
   };
   return (
