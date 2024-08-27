@@ -1,21 +1,40 @@
-import React from 'react'
+import React,{useState} from 'react'
 import Navbars from './components/Navbars';
 import Footers from './components/Footers';
 import Scroll from './components/Scroll';
-import emailjs from '@emailjs/browser';
+import axios from 'axios';
+
 const ContactUs = () => {
 
-    const onSubmit = async (event) => {
-        event.preventDefault();
-        try{
-          emailjs.sendForm('service_uod7h27','template_hh9dheb',event.target,'zwrbkbntMIq-U7_Wn');
+  const [formData, setFormData] = useState({
+    from_name: '',
+    phone: '',
+    from_email: '',
+    subject: '',
+    message: ''
+  });
 
-          event.target.reset(); // Clear the form fields
-          alert('Message sent successfully!');
-        }catch(e){
-          alert("Error: " + e.message);
-        }
-      };
+  const onSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      await axios.post('http://localhost:3001/send-email', formData);
+      alert('Email sent successfully');
+      setFormData({
+        from_name: '',
+        phone: '',
+        from_email: '',
+        subject: '',
+        message: ''
+      });
+    } catch (error) {
+      console.error('Error sending email:', error);
+      alert('Failed to send email. Please try again later.');
+    }
+  };
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
 
   return (
     <>
@@ -33,39 +52,82 @@ const ContactUs = () => {
             <div data-aos="fade-up" className="card bg-base-100 w-full max-w-lg shrink-0 shadow-2xl">
             <form className="card-body" onSubmit={onSubmit}>
                 <div className="form-control">
-                <label className="label">
+                  <label className="label">
                     <span className="label-text">Name: </span>
-                </label>
-                <input type="text" placeholder="Your name" name='from_name' className="input input-bordered text-gray-500" autocomplete="off" required />
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="Your name"
+                    name='from_name'
+                    className="input input-bordered text-gray-500"
+                    autoComplete="off"
+                    required
+                    value={formData.from_name}
+                    onChange={handleChange}
+                  />
                 </div>
                 <div className="form-control">
-                    <label className="label">
-                        <span className="label-text">Phone Number</span>
-                    </label>
-                    <input type="text" placeholder="Phone Number" name='phone' className="input input-bordered text-gray-500" autocomplete="off" required />
+                  <label className="label">
+                    <span className="label-text">Phone Number</span>
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="Phone Number"
+                    name='phone'
+                    className="input input-bordered text-gray-500"
+                    autoComplete="off"
+                    required
+                    value={formData.phone}
+                    onChange={handleChange}
+                  />
                 </div>
                 <div className="form-control">
-                    <label className="label">
-                        <span className="label-text">Email</span>
-                    </label>
-                    <input type="email" placeholder="Email" name='from_email' className="input input-bordered text-gray-500" autocomplete="off" required />
+                  <label className="label">
+                    <span className="label-text">Email</span>
+                  </label>
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    name='from_email'
+                    className="input input-bordered text-gray-500"
+                    autoComplete="off"
+                    required
+                    value={formData.from_email}
+                    onChange={handleChange}
+                  />
                 </div>
                 <div className="form-control">
-                    <label className="label">
-                        <span className="label-text">Subject</span>
-                    </label>
-                    <input type="text" placeholder="Subject" name='subject' className="input input-bordered text-gray-500" autocomplete="off" required />
+                  <label className="label">
+                    <span className="label-text">Subject</span>
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="Subject"
+                    name='subject'
+                    className="input input-bordered text-gray-500"
+                    autoComplete="off"
+                    required
+                    value={formData.subject}
+                    onChange={handleChange}
+                  />
                 </div>
                 <div className="form-control">
-                    <label className="label">
-                        <span className="label-text">Your message (optional)</span>
-                    </label>
-                    <textarea className="textarea textarea-bordered text-gray-500" autocomplete="off" name='message' placeholder="Additional Message"></textarea>
+                  <label className="label">
+                    <span className="label-text">Your message (optional)</span>
+                  </label>
+                  <textarea
+                    className="textarea textarea-bordered text-gray-500"
+                    autoComplete="off"
+                    name='message'
+                    placeholder="Additional Message"
+                    value={formData.message}
+                    onChange={handleChange}
+                  ></textarea>
                 </div>
                 <div className="form-control mt-6">
-                    <button type='submit' className="btn bg-[#1D2E5C] text-[#ffffff] hover:bg-[#27396b]">Submit</button>
+                  <button type='submit' className="btn bg-[#1D2E5C] text-[#ffffff] hover:bg-[#27396b]">Submit</button>
                 </div>
-            </form>
+              </form>
             </div>
         </div>
         </div>

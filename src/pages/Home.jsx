@@ -292,7 +292,7 @@ const Home = () => {
 
         <div className="w-full max-w-screen-md md:px-5 lg:max-w-screen-xl mx-auto">
           <h1 className="text-[#1D2E5C] text-[20px] md:text-[34px]">
-            III. Accounting Staffs
+            III. Tax & Accounting Team
           </h1>
           <div className="w-full max-w-screen-md md:px-3 xl:max-w-screen-lg 2xl:max-w-screen-xl mx-auto grid grid-cols-2 md:grid-cols-3  justify-center items-center gap-[4vw] pt-7">
             <div
@@ -393,7 +393,7 @@ const Home = () => {
           </div>
 
           <h1 className="text-[#1D2E5C] text-[20px] md:text-[34px] my-10">
-            IV. Admin Staffs
+            IV. Business Development Team
           </h1>
           <div className="w-full max-w-screen-md md:px-3 xl:max-w-screen-lg 2xl:max-w-screen-xl mx-auto grid grid-cols-2 md:grid-cols-3 justify-center items-center gap-[4vw] pt-7">
             <div

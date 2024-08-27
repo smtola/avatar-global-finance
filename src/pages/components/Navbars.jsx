@@ -155,7 +155,7 @@ const  handleClickMenu =()=>{
             <NavLink to="/career">Career</NavLink>
           </li>
           <li>
-            <NavLink to="/blog">Blog</NavLink>
+            <NavLink to="/blog">Photo Gallery</NavLink>
           </li>
           <li>
             <NavLink to="/contact-us">Contact Us</NavLink>
