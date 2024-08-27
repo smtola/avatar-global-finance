@@ -138,7 +138,7 @@ const ContactUs = () => {
               <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -2 24 24" width="28" fill="currentColor"><path d="M12 7A5 5 0 1 0 2 7c0 1.726 1.66 5.031 5 9.653 3.34-4.622 5-7.927 5-9.653zM7 20C2.333 13.91 0 9.577 0 7a7 7 0 1 1 14 0c0 2.577-2.333 6.91-7 13zm0-9a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm0-2a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"></path></svg></span>
             </li>
             <li>
-              House No 37, Street 360, Phum 1, Sangkat Boeung Kengkang, Khan Boeung Kengkang, Phnom Penh 
+              Villa No. 37, 2nd Floor, Street 360, Village 1, Sangkat Boeung Keng Kang 1, Khan Boeung Keng Kang, Phnom Penh City, Kingdom of Cambodia
             </li>
           </ul>
         </div>
