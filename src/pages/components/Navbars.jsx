@@ -121,7 +121,7 @@ const  handleClickMenu =()=>{
                     <NavLink to="/career">Career</NavLink>
                   </li>
                   <li className='relative hover:text-[#1f3676] nav-link'>
-                    <NavLink to="/blog">Blog</NavLink>
+                    <NavLink to="/photo-gallery">Photo Gallery</NavLink>
                   </li>
                   <li className='relative hover:text-[#1f3676] nav-link'>
                     <NavLink to="/contact-us">Contact Us</NavLink>
@@ -155,7 +155,7 @@ const  handleClickMenu =()=>{
             <NavLink to="/career">Career</NavLink>
           </li>
           <li>
-            <NavLink to="/blog">Photo Gallery</NavLink>
+            <NavLink to="/photo-gallery">Photo Gallery</NavLink>
           </li>
           <li>
             <NavLink to="/contact-us">Contact Us</NavLink>
