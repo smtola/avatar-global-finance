@@ -38,18 +38,18 @@ const Home = () => {
       <div className="w-full max-w-screen-sm xl:max-w-screen-lg mx-auto px-5 md:px-0">
         <div className="text-center text-[#1D2E5C] font-['tenorsans'] my-10">
           <h1
-            className="text-[24px] md:text-[40px]"
+            className="text-[12px] md:text-[30px] uppercase"
             data-aos="fade-right"
             data-aos-anchor-placement="top-bottom"
           >
-            About Avartar Global
+            About Avartar Global FINANCE & ACCOUNTING FIRM
           </h1>
           <p
-            className="text-[14px] xl:text-[20px]"
+            className="text-[11px] xl:text-[20px]"
             data-aos="fade-right"
             data-aos-anchor-placement="top-bottom"
           >
-            FINANCE & ACCOUNTING FIRM | Head Office in Phnom Penh | Kingdom of
+            Head Office in Phnom Penh | Kingdom of
             Cambodia.
           </p>
           <p
@@ -91,7 +91,7 @@ const Home = () => {
           </button>
         </div>
         <div className="hidden lg:block">
-          <div className="bg-gradient-to-br from-[#002561] to-[#1D2E5C] backdrop-blur-[5px] opacity-[.85] w-full md:max-w-[28rem] lg:max-w-[35.8rem] xl:max-w-[44.8rem] 2xl:max-w-[69.8rem] absolute top-[60%] translate-x-[-50%] translate-y-[-50%] lg:left-[72%] 2xl:left-[68.9%]">
+          <div className="bg-gradient-to-br from-[#002561] to-[#1D2E5C] backdrop-blur-[5px] opacity-[.85] w-full md:max-w-[28rem] lg:max-w-[35.8rem] xl:max-w-[44.8rem] 2xl:max-w-[69.8rem] absolute top-[60%] translate-x-[-50%] translate-y-[-50%] lg:left-[72%] 2xl:left-[68.4%]">
             <div className='p-[35px] xl:p-[60px] 2xl:py-[10rem] text-[#ffffff] font-["tenorsans"] z-[10]'>
               <h1 className="text-[30px] 2xl:text-[35px]">
                 Message From President
@@ -116,9 +116,9 @@ const Home = () => {
                 <br />
                 Best Regards,
                 <br />
-                Mr. Seng Bunhuy CEO,
+                H.E. SENG BUN HUY President,
                 <br />
-                Avarta Global Finance and Accounting Firm
+                AVATAR GLOBAL FINANCE & ACCOUNTING FIRM
               </p>
             </div>
           </div>
@@ -146,9 +146,9 @@ const Home = () => {
               <br />
               Best Regards,
               <br />
-              Mr. Seng Bunhuy CEO,
+              H.E. SENG BUN HUY President,
               <br />
-              Avarta Global Finance and Accounting Firm
+              AVATAR GLOBAL FINANCE & ACCOUNTING FIRM
             </p>
           </div>
         </div>
